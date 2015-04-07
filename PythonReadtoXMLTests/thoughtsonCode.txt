@@ -1,0 +1,9 @@
+So, we often create outcomes that are of multiple parts as we drill down the elements, but the outcomes we remove might be the only outcome in a given drilled-down element, so we have nothing to work from and search for when we try to use that element. With no outcomes to use, we crash. We need to run one last cycle before we save our xml. Get rid of textparts with no outcomes, and subtract them from the preceding textparts timescalled. If it doesn't have an outcome at the end of the cleanup process, then it is useless to us. Some textparts might get all their next-elements destroyed, and that is okay so long as we only run cleanupuselessoutcomes at the VERY end of all this, so that we still have things to work with
+
+Currently, my state and outcome are defined based upon characters. However, CALLIE needs to rethink what it uses as states and outcomes and rearrange itself accordingly. 
+
+Remove all outcomes that are of a length of a certain character (say, 1).
+
+THEN, remove all the elements which no longer have any outcomes or next elements.
+
+THEN, only at the end, do we remove useless outcomes. Or, perhaps, we do not remove useless outcomes at all?

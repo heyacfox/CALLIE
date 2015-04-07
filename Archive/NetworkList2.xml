@@ -1,0 +1,32 @@
+<root>
+	<NetworkList>
+		<Account>
+			<Id>999999</Id>
+			<Username>SpazzFox</Username>
+			<Status>Core</Status>
+			<MentionsReceived>
+				<Total>5</Total>
+				<ByAccount>
+					<AccountFrom>
+						<Id>233452</Id>
+						<Amount>5</Amount>
+					</AccountFrom>
+				</ByAccount>
+			</MentionsReceived>
+		<Account><Id>44822</Id><Username>Brooks</Username><Status>Extended</Status><MentionsReceived><Total>0</Total><ByAccount /></MentionsReceived></Account></Account>
+		<Account>
+			<Id>8888</Id>
+			<Username>Pwney</Username>
+			<Status>Core</Status>
+			<MentionsReceived>
+				<Total>7</Total>
+				<ByAccount>
+					<AccountFrom>
+						<Id>233452</Id>
+						<Amount>5</Amount>
+					</AccountFrom>
+				<AccountFrom><Id>729</Id><Amount>3</Amount></AccountFrom></ByAccount>
+			</MentionsReceived>
+		</Account>
+	</NetworkList>
+</root>

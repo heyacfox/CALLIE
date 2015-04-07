@@ -1,0 +1,150 @@
+#! usr/bin/python
+# -*- coding: utf-8 -*-
+
+import MySQLdb as mdb
+
+
+curState = ""
+curOutcome = ""
+con = mdb.connect('localhost', 'root', 'mbn1c5r', 'Text_Learner');
+txtf = open ("/home/user1/PyScripts/MobyDick.txt", "r")
+data = txtf.read()
+FinalStateList = []
+FinalOutcomeList = []
+GroupWhenHit = 99
+TextDrain = ""
+con.autocommit(True)
+
+def main():
+	
+
+	
+	populateOutcomeList()
+	populateStateList()
+	readEntireFile()
+	txtf.close()
+	print "PyReadFileScript Completed!"
+
+def populateStateList():
+
+	with con:
+		cur = con.cursor()
+		cur.execute("SELECT StateName FROM State_Table1")
+		StateList = cur.fetchall()
+
+		global FinalStateList
+		FinalStateList = []
+		for mystate in StateList:
+			FinalStateList.append(mystate[0])
+		
+		
+	
+		
+def populateOutcomeList():
+
+	with con:
+		cur = con.cursor()
+		cur.execute("SELECT OutcomeName FROM Outcome_Table1")
+		OutcomeList = cur.fetchall()
+
+		global FinalOutcomeList
+		FinalOutcomeList = []
+		for myoutcome in OutcomeList:
+			FinalOutcomeList.append(myoutcome[0])
+				
+
+def readEntireFile():
+	filelength = len(data)
+	global TextDrain
+	TextDrain = data
+	startFileDrain()
+
+def startFileDrain():
+	global TextDrain
+	while len(TextDrain) > 1:
+		print "LENGTH LEFT" + str(len(TextDrain))
+
+		tempstate = TextDrain[0]
+		TextDrain = TextDrain[1:]
+		compareStateToOutcome(tempstate, TextDrain[0])
+				
+
+
+def compareStateToOutcome(s, o):
+	if str(s) in FinalStateList:
+		if str(o) in FinalOutcomeList:
+			addStateOutcomeValues(s, o)
+		else:
+			addOutcomeToDB(o)
+	else:
+		addStateToDB(s)
+
+
+def addStateOutcomeValues(s, o):
+
+	#We need to know where the outcome is on the index before we
+	#can find the appropriate location to check for it
+	outcomeindex = FinalOutcomeList.index(o) + 1
+	global TextDrain
+	statevaluemapnumber = 0
+	trues = s 
+	
+	if trues == "\'\''\'":
+		trues == "\'"
+	
+	with con:
+		cur = con.cursor()
+		queryprep = "SELECT OUTCOME" + ""
+		cur.execute("SELECT Outcome" + str(outcomeindex) + " FROM State_Table1 WHERE StateName=%s;", [trues])
+		statevaluemapnumber = cur.fetchone()[0]
+		#print "STATEOUTCOME MAP COUNT " + str(statevaluemapnumber) + " And State Value is: " + str(trues) + " and Outcome Value is: " + str(o) + "AND OUTCOME INDEX IS: " + str(outcomeindex)
+		if statevaluemapnumber > GroupWhenHit:
+			if TextDrain[1] != None:
+				TextDrain = TextDrain[1:]
+				compareStateToOutcome((s + o), TextDrain[0]) 
+		else:
+			
+			newstatenumber = statevaluemapnumber + 1
+			
+			cur.execute("UPDATE State_Table1 SET Outcome" + str(outcomeindex) + " = " + "Outcome" + str(outcomeindex) + " + 1 WHERE StateName=%s;", [trues])
+			cur.execute("UPDATE State_Table1 Set TotalMaps = TotalMaps + 1 WHERE StateName=%s;", [trues])
+			
+			con.commit()
+			cur.execute("SELECT Outcome" + str(outcomeindex) + " FROM State_Table1 WHERE StateName=%s", [trues])
+			fakestatenumber = cur.fetchone()[0]
+			
+	
+
+def addOutcomeToDB(o):
+	fakeo = o 
+	if fakeo == "\'\'\'":
+		fakeo = "\'"
+	with con:
+		cur = con.cursor()
+		cur.execute("INSERT INTO Outcome_Table1(OutcomeName) VALUES(%s);", [fakeo])
+	
+	OutcomeLength = len(FinalOutcomeList)
+	populateOutcomeList()
+
+	with con:
+		cur = con.cursor()
+		cur.execute("ALTER TABLE State_Table1 ADD `Outcome" + str(OutcomeLength + 1) + "` int(11) NOT NULL;")
+
+			
+
+def addStateToDB(c):
+	fakec = c  
+	if fakec == "\'\'\'":
+		fakec = "\'"
+	print c
+	with con:
+		cur = con.cursor()
+		cur.execute("INSERT INTO State_Table1(StateName) VALUES(%s);", [fakec])
+		
+	populateStateList()
+
+
+main()
+
+
+
