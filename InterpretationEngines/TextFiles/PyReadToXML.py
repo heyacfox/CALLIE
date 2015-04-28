@@ -6,10 +6,18 @@ import TextPartClass
 import os
 #---------------------
 #Constatnts
+#determines how many sights of a given text combination
+#to record before going a level deeper
 global DuplicateAmountDepth
 DuplicateAmountDepth = 20
+#how many iterations to do until
+#printing a log report
 global StringCounterMax
 StringCounterMax = 100
+#if a string is greater than this amount,
+#split it into chunks before interpreting
+global sizeToChunkify
+sizeToChunkify = 10000
 
 #------------------
 #Global Variables
@@ -19,15 +27,14 @@ global GlobalTopTextPart
 global StringCounter
 StringCounter = 0
 
-
+#------------------
+#CM = Callie Machine
 
 #-------------------------------
 #Basics. Here, are the public functions
 
 
-
-#Returns Nothing. Alters the CM from reading
-#the text file at the File Location
+#Returns Nothing. Reads a given text file to the CM
 def readTextFile(FileLoc, CM):
     TopTextPart = XMLGetterSetter.getXMLReturnTP(CM)
     newTP = readTextFileToPart(FileLoc, TopTextPart)
@@ -36,7 +43,7 @@ def readTextFile(FileLoc, CM):
 
 
 
-#Returns nothing. Reads all text files in a given folder
+#Returns nothing. Reads all text files in a given folder to the CM
 def readFilesInFolder(FolderLoc, CM):
     TopTextPart = XMLGetterSetter.getXMLReturnTP(CM)
     for myfile in os.listdir(FolderLoc):
@@ -68,11 +75,12 @@ def readString(MyString, CM):
 #-------------------------------
 #These functions are private
 
-
+#takes the first 
 def readTextFileToPart(FileLoc, TP):
     #toReadText is a string
     ToReadText = openTxt(FileLoc)
-    if len(ToReadText) > 10000:
+    global sizeToChunkify
+    if len(ToReadText) > sizeToChunkify:
         los = splitStringToChunks(ToReadText)
         for s in los:
             TP = readStringtoPart(s, TP)
@@ -80,17 +88,18 @@ def readTextFileToPart(FileLoc, TP):
     else:
         return readStringtoPart(ToReadText, TP)
 
+#Split a string into 10 equally sized chunks
 def splitStringToChunks(MyString):
     chunks = len(MyString)
     chunkSize = len(MyString)//10
     return [MyString[i:i+chunkSize] for i in range(0, chunks, chunkSize)]
 
-#returns a string of the text
+#returns a string of the text file
 def openTxt(FileLoc):
     TextFile = open (FileLoc, "r")
     return TextFile.read()
 
-#takes a string, applies it to the text part, returns a textpart
+#takes a string, applies it to the text part, returns the altered textpart
 def readStringtoPart(StringtoRead, TP):
     if len(StringtoRead) > 0:
         StateToPass = StringtoRead[0]
@@ -108,6 +117,8 @@ def readStringtoPart(StringtoRead, TP):
             createStateCompareEvalTop(SavedState, StringRest, TP)
     return TP
 
+
+#If the length of the state is 1, 
 def createStateCompareEvalTop(state, rest, textpart):
     if len(state) == 1:
         #print("compareevalbranch1")
@@ -115,6 +126,7 @@ def createStateCompareEvalTop(state, rest, textpart):
     else:
         stateRestCompareRecursive(state, rest, findPart(state))
 
+#prints the length left every StringCounterMax iterations
 def printlengthevery():
     global StringRest
     global StringCounter
@@ -206,7 +218,7 @@ def findOutcomeForPartRecursive(rest, outcome, breakingdownpart):
         #we couldn't find a single letter state that existed. That was sad.
         return outcome
         
-
+#for a given textpart, write 'outcome' as an outome
 def writeOutcomeToPart(textpart, outcome):
     #IF THE OUTCOME IS '', Don't WRITE ANYTHING
     global StringRest
@@ -228,10 +240,12 @@ def writeOutcomeToPart(textpart, outcome):
         #Otherwise, we got to the end, set the rest to 0 so we give up
         StringRest = ""
 
+#based on a given state as a string, find the TextPart that matches
 def findPart(state):
     global GlobalTopTextPart
     return findPartRecursive(state, state, GlobalTopTextPart, 0)
 
+#go down the list recursively until the appropriate part is found
 def findPartRecursive(somestate, fullstate, textpart, indexcheck):
     if fullstate == textpart.ThisElement:
         return textpart
