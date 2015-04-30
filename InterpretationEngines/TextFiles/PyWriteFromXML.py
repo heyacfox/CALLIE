@@ -43,6 +43,8 @@ def writeString(chars, CM):
 def openText(path):
     return open(path, 'w')
 
+#Returns a string based on a number of characters and formation
+#from the textpart
 def writeStory(textpart, chars):
     from random import randint
     indexesOfNext = len(textpart.NextElements)
@@ -67,6 +69,8 @@ def writeStory(textpart, chars):
         #print("SavedState: " + SavedState + "| and mypart: " + mypart.ThisElement)
     return buildstring
 
+
+#prints a log of how many characters we are into it
 def printEveryNumber(incrementer, charsleft):
     global PrintOnNumber
     global PrintOnNumberCounter
@@ -76,6 +80,7 @@ def printEveryNumber(incrementer, charsleft):
     else:
         PrintOnNumberCounter = PrintOnNumberCounter + incrementer
 
+#
 def writeStoryRecur(part, buildstring):
     from random import randint
     indexofOutcomes = len(part.Outcomes)
@@ -154,7 +159,8 @@ def findPartHelp(somestate, fullstate, part, indexcheck):
     print("No Part Found")
 
 #Returns a string
-
+#Only applicable to tweet writing, probably remove this? It should be
+#at a higher level
 def writeSomeText(CM, mychars):
     getXML(CM)
     openText("tweettemplate.txt")
@@ -164,3 +170,7 @@ def writeSomeText(CM, mychars):
     newTextFile = open("tweettemplate.txt", 'r')
     SomeTweet = newTextFile.read()
     return SomeTweet
+
+#writes a string to a text file
+def writeStringToText(string, textFile):
+    textFile.write(string)
