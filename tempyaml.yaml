@@ -1,0 +1,1 @@
+!!python/object:InterpretationEngines.PartMachine.PartMachine {LossLimit: 100, MaxExpansionPercentage: 0.1}

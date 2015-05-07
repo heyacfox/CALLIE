@@ -1,6 +1,7 @@
-import Errors
-import AnyPart
+from . import Errors
+from . import AnyPart
 import math
+import random
 
 #This is the dataStorageClass
 
@@ -18,19 +19,19 @@ class PartMachine:
     #a public function that will return a part from the list based 
     def getPartByID(self, SearchID):
         if SearchID in self.listOfParts:
-            return listOfParts[SearchID]
+            return self.listOfParts[SearchID]
         else:
             raise Errors.NotInMemoryError(SearchID)
 
-    def receiveNewPart(self, newPartID, newPartValue):
-        if len(listOfParts) >= LossLimit:
+    def receiveNewPart(self, newPartID, newPartValue, dictOfConTypes):
+        if len(self.listOfParts) >= self.LossLimit:
             #We stop the consuming, we cannot handle anything more
             raise OutOfMemoryError()
         else:
-            if newPartID in listOfParts:
-                raise Error("Part Already Exists")
+            if newPartID in self.listOfParts:
+                raise RuntimeError("Part Already Exists")
             else:
-                listOfParts[newPartID] = AnyPart(newPartID, newPartValue)
+                self.listOfParts[newPartID] = AnyPart.AnyPart(newPartID, newPartValue, dictOfConTypes)
 
     def initiateLossyMemoryExpansion(self):
         #create a list fro the listOfParts dictionary
@@ -46,6 +47,7 @@ class PartMachine:
         self.LossLimit = self.LossLimit + numberToRemove
         return "X"
 
-    def consumeData(self, data):
-        return "X"
+    def getAnyPartID(self):
+        somepartid = random.choice(list(self.listOfParts.keys()))
+        return somepartid
             

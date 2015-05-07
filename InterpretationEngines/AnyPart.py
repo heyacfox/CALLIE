@@ -1,5 +1,5 @@
 #Part Class
-import Constants
+from . import Constants
 import random
 
 class AnyPart:
@@ -13,13 +13,15 @@ class AnyPart:
         self.ListOfConnectionTypes = dictionaryOfConTypes
 
     def addConnection(self, TypeListID, newConnection):
-        if TypeListID in ListOfConnectionTypes:
-            if newConnection.callieID in ListOfConnectionTypes[TypeListID].listOfConnection:
-                ListOfConnectionTypes[TypeListID].listOfConnection[newConnection.callieID].addWeight(Constants.weightToAdd)
+        if TypeListID in self.ListOfConnectionTypes:
+            if newConnection.callieID in self.ListOfConnectionTypes[TypeListID].listOfConnection:
+                print("Anypart: Added Weight")
+                self.ListOfConnectionTypes[TypeListID].listOfConnection[newConnection.callieID].addWeight(Constants.weightToAdd)
             else:
-                ListOfConnectionTypes[TypeListID].addTypeConnection(newConnection)
+                print("Anypart: Made new connection")
+                self.ListOfConnectionTypes[TypeListID].addTypeConnection(newConnection)
         else:
-            raise Error('Not in types')
+            raise RuntimeError('Not in types')
 
     def returnRandomConnection(self):
         newDictionary = random.choice(list(self.ListOfConnectionTypes.keys()))
@@ -48,4 +50,23 @@ class AnyPart:
             for y in x.values():
                 totalConnectionsAndWeights = totalConnectionsAndWeights + y.weight
         return totalConnectionsAndWeights
-            
+
+
+    def hasConnectionHuh(self, somePartID):
+        raise RuntimeError()
+
+
+    def hasConnectionHuhInType(self, somePartID, someType):
+        if someType in self.ListOfConnectionTypes:
+            if somePartID in self.ListOfConnectionTypes[someType].listOfConnection:
+                return True
+        return False
+
+    def getConnectionInType(self, somePartID, someType):
+        return self.ListOfConnectionTypes[someType].listOfConnection[somePartID]
+
+    #returns ALL CONNECTION KEYS MAKE SURE YOU WANT THIS
+    def getAllConnectionsInType(self, someType):
+        return self.ListOfConnectionTypes[someType].keys()
+
+

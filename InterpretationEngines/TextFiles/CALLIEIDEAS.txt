@@ -34,3 +34,22 @@ CreatingList Code.
 Need to make this more efficient. Need to run the @___ against a list of things I already have so I don't have to do the wicked expensive operation of pinging the Twitter API for EVERY SINGLE NAME.
 
 If that name is already in my system, there is no sense Wrecking myself by overloading on Pings. If it's in my list, don't run the ask for the ID from the server, just pull the ID from the list I already have. 
+
+
+---------------
+04/28/2015
+
+CALLIEMachine Specification
+
+A CallieMachine is a class.
+
+It must have the following things.
+
+It must be able to take in data, and give an output that is different from
+
+Split a data up into its smallest possible parts. Then, rebuild the data structure based on how those parts are connected. Each part must be able to be referenced by a unique ID
+
+CallieMachine {
+	
+	
+}
