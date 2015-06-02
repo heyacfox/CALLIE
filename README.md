@@ -1,2 +1,2 @@
 # CALLIE
-Culturally Adept Logical Linguistic Interpretation Engine
+Culturally Adept Lossy Limited Interpretation Engine
