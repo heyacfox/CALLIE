@@ -14,11 +14,11 @@ class AnyPart:
 
     def addConnection(self, TypeListID, newConnection):
         if TypeListID in self.ListOfConnectionTypes:
-            if newConnection.callieID in self.ListOfConnectionTypes[TypeListID].listOfConnection:
-                print("Anypart: Added Weight")
-                self.ListOfConnectionTypes[TypeListID].listOfConnection[newConnection.callieID].addWeight(Constants.weightToAdd)
+            if newConnection.PartID in self.ListOfConnectionTypes[TypeListID].listOfConnection:
+                #print("Anypart: Added Weight")
+                self.ListOfConnectionTypes[TypeListID].listOfConnection[newConnection.PartID].addWeight(Constants.weightToAdd)
             else:
-                print("Anypart: Made new connection")
+                #print("Anypart: Made new connection")
                 self.ListOfConnectionTypes[TypeListID].addTypeConnection(newConnection)
         else:
             raise RuntimeError('Not in types')
@@ -69,4 +69,6 @@ class AnyPart:
     def getAllConnectionsInType(self, someType):
         return self.ListOfConnectionTypes[someType].keys()
 
+    def prettyPrint(self):
+        print(self.PartValue)
 

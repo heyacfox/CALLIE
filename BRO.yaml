@@ -1,0 +1,2576 @@
+Aaron: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Aaron
+  PartValue: Aaron
+Adam: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Adam
+  PartValue: Adam
+Afghanistan: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Afghanistan
+  PartValue: Afghanistan
+Alan: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Alan
+  PartValue: Alan
+Albania: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Albania
+  PartValue: Albania
+Albert: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Albert
+  PartValue: Albert
+Alice: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Alice
+  PartValue: Alice
+Amanda: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Amanda
+  PartValue: Amanda
+Amy: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Amy
+  PartValue: Amy
+Andrea: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Andrea
+  PartValue: Andrea
+Andrew: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Andrew
+  PartValue: Andrew
+Angela: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Angela
+  PartValue: Angela
+Angola: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Angola
+  PartValue: Angola
+Ann: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Ann
+  PartValue: Ann
+Anna: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Anna
+  PartValue: Anna
+Anne: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Anne
+  PartValue: Anne
+Annie: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Annie
+  PartValue: Annie
+Anthony: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Anthony
+  PartValue: Anthony
+Antonio: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Antonio
+  PartValue: Antonio
+Argentina: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Argentina
+  PartValue: Argentina
+Armenia: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Armenia
+  PartValue: Armenia
+Arthur: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Arthur
+  PartValue: Arthur
+Ashley: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Ashley
+  PartValue: Ashley
+Australia: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Australia
+  PartValue: Australia
+Austria: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Austria
+  PartValue: Austria
+Azerbaijan: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Azerbaijan
+  PartValue: Azerbaijan
+Bangladesh: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Bangladesh
+  PartValue: Bangladesh
+Barbara: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Barbara
+  PartValue: Barbara
+Belarus: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Belarus
+  PartValue: Belarus
+Benin: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Benin
+  PartValue: Benin
+Benjamin: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Benjamin
+  PartValue: Benjamin
+Betty: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Betty
+  PartValue: Betty
+Beverly: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Beverly
+  PartValue: Beverly
+Billy: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Billy
+  PartValue: Billy
+Bobby: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Bobby
+  PartValue: Bobby
+Bolivia: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Bolivia
+  PartValue: Bolivia
+Bonnie: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Bonnie
+  PartValue: Bonnie
+Bosnia and Herzegovina: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Bosnia and Herzegovina
+  PartValue: Bosnia and Herzegovina
+Botswana: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Botswana
+  PartValue: Botswana
+Brandon: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Brandon
+  PartValue: Brandon
+Brazil: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Brazil
+  PartValue: Brazil
+Brenda: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Brenda
+  PartValue: Brenda
+Brian: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Brian
+  PartValue: Brian
+Bruce: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Bruce
+  PartValue: Bruce
+Bulgaria: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Bulgaria
+  PartValue: Bulgaria
+Cambodia: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Cambodia
+  PartValue: Cambodia
+Canada: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Canada
+  PartValue: Canada
+Carl: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Carl
+  PartValue: Carl
+Carlos: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Carlos
+  PartValue: Carlos
+Carol: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Carol
+  PartValue: Carol
+Carolyn: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Carolyn
+  PartValue: Carolyn
+Catherine: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Catherine
+  PartValue: Catherine
+Central African Republic: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Central African Republic
+  PartValue: Central African Republic
+Chad: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Chad
+  PartValue: Chad
+Charles: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Charles
+  PartValue: Charles
+Cheryl: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Cheryl
+  PartValue: Cheryl
+Chile: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Chile
+  PartValue: Chile
+China: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: China
+  PartValue: China
+Chris: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Chris
+  PartValue: Chris
+Christina: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Christina
+  PartValue: Christina
+Christine: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Christine
+  PartValue: Christine
+Christopher: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Christopher
+  PartValue: Christopher
+Clarence: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Clarence
+  PartValue: Clarence
+Colombia: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Colombia
+  PartValue: Colombia
+Comoros: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Comoros
+  PartValue: Comoros
+Costa Rica: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Costa Rica
+  PartValue: Costa Rica
+Craig: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Craig
+  PartValue: Craig
+Croatia: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Croatia
+  PartValue: Croatia
+Cuba: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Cuba
+  PartValue: Cuba
+Cynthia: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Cynthia
+  PartValue: Cynthia
+Czech Republic: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Czech Republic
+  PartValue: Czech Republic
+Daniel: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Daniel
+  PartValue: Daniel
+David: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: David
+  PartValue: David
+Deborah: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Deborah
+  PartValue: Deborah
+Debra: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Debra
+  PartValue: Debra
+Democratic Republic of the Congo: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Democratic Republic of the Congo
+  PartValue: Democratic Republic of the Congo
+Denise: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Denise
+  PartValue: Denise
+Denmark: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Denmark
+  PartValue: Denmark
+Dennis: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Dennis
+  PartValue: Dennis
+Diana: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Diana
+  PartValue: Diana
+Diane: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Diane
+  PartValue: Diane
+Djibouti: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Djibouti
+  PartValue: Djibouti
+Donald: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Donald
+  PartValue: Donald
+Donna: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Donna
+  PartValue: Donna
+Doris: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Doris
+  PartValue: Doris
+Dorothy: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Dorothy
+  PartValue: Dorothy
+Douglas: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Douglas
+  PartValue: Douglas
+Earl: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Earl
+  PartValue: Earl
+East Timor: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: East Timor
+  PartValue: East Timor
+Ecuador: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Ecuador
+  PartValue: Ecuador
+Edward: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Edward
+  PartValue: Edward
+Egypt: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Egypt
+  PartValue: Egypt
+El Salvador: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: El Salvador
+  PartValue: El Salvador
+Elizabeth: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Elizabeth
+  PartValue: Elizabeth
+Emily: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Emily
+  PartValue: Emily
+Eric: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Eric
+  PartValue: Eric
+Ernest: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Ernest
+  PartValue: Ernest
+Estonia: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Estonia
+  PartValue: Estonia
+Eugene: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Eugene
+  PartValue: Eugene
+Evelyn: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Evelyn
+  PartValue: Evelyn
+Finland: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Finland
+  PartValue: Finland
+France: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: France
+  PartValue: France
+Frances: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Frances
+  PartValue: Frances
+Frank: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Frank
+  PartValue: Frank
+Fred: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Fred
+  PartValue: Fred
+French Polynesia: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: French Polynesia
+  PartValue: French Polynesia
+Gabon: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Gabon
+  PartValue: Gabon
+Gary: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Gary
+  PartValue: Gary
+George: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: George
+  PartValue: George
+Georgia: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Georgia
+  PartValue: Georgia
+Gerald: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Gerald
+  PartValue: Gerald
+Germany: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Germany
+  PartValue: Germany
+Gloria: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Gloria
+  PartValue: Gloria
+Greece: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Greece
+  PartValue: Greece
+Gregory: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Gregory
+  PartValue: Gregory
+Guam: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Guam
+  PartValue: Guam
+Guatemala: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Guatemala
+  PartValue: Guatemala
+Guinea: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Guinea
+  PartValue: Guinea
+Harold: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Harold
+  PartValue: Harold
+Harry: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Harry
+  PartValue: Harry
+Heather: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Heather
+  PartValue: Heather
+Helen: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Helen
+  PartValue: Helen
+Henry: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Henry
+  PartValue: Henry
+Honduras: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Honduras
+  PartValue: Honduras
+Howard: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Howard
+  PartValue: Howard
+Hungary: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Hungary
+  PartValue: Hungary
+Iceland: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Iceland
+  PartValue: Iceland
+Indonesia: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Indonesia
+  PartValue: Indonesia
+Iran: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Iran
+  PartValue: Iran
+Iraq: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Iraq
+  PartValue: Iraq
+Ireland: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Ireland
+  PartValue: Ireland
+Irene: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Irene
+  PartValue: Irene
+Israel: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Israel
+  PartValue: Israel
+Italy: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Italy
+  PartValue: Italy
+Jack: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Jack
+  PartValue: Jack
+Jacqueline: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Jacqueline
+  PartValue: Jacqueline
+James: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: James
+  PartValue: James
+Jane: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Jane
+  PartValue: Jane
+Janet: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Janet
+  PartValue: Janet
+Janice: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Janice
+  PartValue: Janice
+Japan: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Japan
+  PartValue: Japan
+Jason: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Jason
+  PartValue: Jason
+Jean: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Jean
+  PartValue: Jean
+Jeffrey: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Jeffrey
+  PartValue: Jeffrey
+Jennifer: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Jennifer
+  PartValue: Jennifer
+Jeremy: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Jeremy
+  PartValue: Jeremy
+Jerry: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Jerry
+  PartValue: Jerry
+Jesse: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Jesse
+  PartValue: Jesse
+Jessica: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Jessica
+  PartValue: Jessica
+Jimmy: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Jimmy
+  PartValue: Jimmy
+Joan: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Joan
+  PartValue: Joan
+Joe: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Joe
+  PartValue: Joe
+John: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: John
+  PartValue: John
+Johnny: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Johnny
+  PartValue: Johnny
+Jonathan: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Jonathan
+  PartValue: Jonathan
+Jordan: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Jordan
+  PartValue: Jordan
+Jose: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Jose
+  PartValue: Jose
+Joseph: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Joseph
+  PartValue: Joseph
+Joshua: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Joshua
+  PartValue: Joshua
+Joyce: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Joyce
+  PartValue: Joyce
+Juan: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Juan
+  PartValue: Juan
+Judith: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Judith
+  PartValue: Judith
+Judy: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Judy
+  PartValue: Judy
+Julia: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Julia
+  PartValue: Julia
+Julie: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Julie
+  PartValue: Julie
+Justin: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Justin
+  PartValue: Justin
+Karen: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Karen
+  PartValue: Karen
+Katherine: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Katherine
+  PartValue: Katherine
+Kathleen: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Kathleen
+  PartValue: Kathleen
+Kathryn: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Kathryn
+  PartValue: Kathryn
+Kathy: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Kathy
+  PartValue: Kathy
+Kazakhstan: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Kazakhstan
+  PartValue: Kazakhstan
+Keith: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Keith
+  PartValue: Keith
+Kelly: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Kelly
+  PartValue: Kelly
+Kenneth: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Kenneth
+  PartValue: Kenneth
+Kenya: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Kenya
+  PartValue: Kenya
+Kevin: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Kevin
+  PartValue: Kevin
+Kimberly: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Kimberly
+  PartValue: Kimberly
+Kyrgyzstan: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Kyrgyzstan
+  PartValue: Kyrgyzstan
+Laos: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Laos
+  PartValue: Laos
+Larry: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Larry
+  PartValue: Larry
+Latvia: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Latvia
+  PartValue: Latvia
+Laura: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Laura
+  PartValue: Laura
+Lawrence: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Lawrence
+  PartValue: Lawrence
+Liberia: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Liberia
+  PartValue: Liberia
+Lillian: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Lillian
+  PartValue: Lillian
+Linda: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Linda
+  PartValue: Linda
+Lisa: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Lisa
+  PartValue: Lisa
+Lithuania: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Lithuania
+  PartValue: Lithuania
+Lois: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Lois
+  PartValue: Lois
+Lori: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Lori
+  PartValue: Lori
+Louis: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Louis
+  PartValue: Louis
+Louise: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Louise
+  PartValue: Louise
+Luxembourg: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Luxembourg
+  PartValue: Luxembourg
+Macedonia: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Macedonia
+  PartValue: Macedonia
+Madagascar: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Madagascar
+  PartValue: Madagascar
+Malaysia: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Malaysia
+  PartValue: Malaysia
+Maldives: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Maldives
+  PartValue: Maldives
+Mali: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Mali
+  PartValue: Mali
+Malta: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Malta
+  PartValue: Malta
+Margaret: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Margaret
+  PartValue: Margaret
+Maria: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Maria
+  PartValue: Maria
+Marie: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Marie
+  PartValue: Marie
+Marilyn: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Marilyn
+  PartValue: Marilyn
+Mark: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Mark
+  PartValue: Mark
+Martha: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Martha
+  PartValue: Martha
+Martin: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Martin
+  PartValue: Martin
+Mary: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Mary
+  PartValue: Mary
+Matthew: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Matthew
+  PartValue: Matthew
+Melissa: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Melissa
+  PartValue: Melissa
+Mexico: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Mexico
+  PartValue: Mexico
+Michael: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Michael
+  PartValue: Michael
+Michelle: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Michelle
+  PartValue: Michelle
+Micronesia: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Micronesia
+  PartValue: Micronesia
+Mildred: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Mildred
+  PartValue: Mildred
+Mongolia: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Mongolia
+  PartValue: Mongolia
+Morocco: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Morocco
+  PartValue: Morocco
+Myanmar: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Myanmar
+  PartValue: Myanmar
+Nancy: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Nancy
+  PartValue: Nancy
+Nepal: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Nepal
+  PartValue: Nepal
+Netherlands: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Netherlands
+  PartValue: Netherlands
+New Zealand: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: New Zealand
+  PartValue: New Zealand
+Nicaragua: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Nicaragua
+  PartValue: Nicaragua
+Nicholas: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Nicholas
+  PartValue: Nicholas
+Nicole: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Nicole
+  PartValue: Nicole
+Nigeria: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Nigeria
+  PartValue: Nigeria
+Norma: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Norma
+  PartValue: Norma
+North Korea: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: North Korea
+  PartValue: North Korea
+Norway: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Norway
+  PartValue: Norway
+Oman: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Oman
+  PartValue: Oman
+Pakistan: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Pakistan
+  PartValue: Pakistan
+Palau: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Palau
+  PartValue: Palau
+Palestinian Territory: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Palestinian Territory
+  PartValue: Palestinian Territory
+Pamela: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Pamela
+  PartValue: Pamela
+Panama: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Panama
+  PartValue: Panama
+Paraguay: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Paraguay
+  PartValue: Paraguay
+Patricia: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Patricia
+  PartValue: Patricia
+Patrick: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Patrick
+  PartValue: Patrick
+Paul: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Paul
+  PartValue: Paul
+Paula: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Paula
+  PartValue: Paula
+Peru: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Peru
+  PartValue: Peru
+Peter: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Peter
+  PartValue: Peter
+Philip: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Philip
+  PartValue: Philip
+Philippines: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Philippines
+  PartValue: Philippines
+Phillip: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Phillip
+  PartValue: Phillip
+Phyllis: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Phyllis
+  PartValue: Phyllis
+Poland: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Poland
+  PartValue: Poland
+Portugal: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Portugal
+  PartValue: Portugal
+Rachel: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Rachel
+  PartValue: Rachel
+Ralph: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Ralph
+  PartValue: Ralph
+Randy: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Randy
+  PartValue: Randy
+Raymond: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Raymond
+  PartValue: Raymond
+Rebecca: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Rebecca
+  PartValue: Rebecca
+Republic of the Congo: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Republic of the Congo
+  PartValue: Republic of the Congo
+Richard: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Richard
+  PartValue: Richard
+Robert: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Robert
+  PartValue: Robert
+Robin: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Robin
+  PartValue: Robin
+Roger: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Roger
+  PartValue: Roger
+Ronald: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Ronald
+  PartValue: Ronald
+Rose: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Rose
+  PartValue: Rose
+Roy: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Roy
+  PartValue: Roy
+Ruby: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Ruby
+  PartValue: Ruby
+Russell: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Russell
+  PartValue: Russell
+Russia: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Russia
+  PartValue: Russia
+Ruth: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Ruth
+  PartValue: Ruth
+Ryan: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Ryan
+  PartValue: Ryan
+Samoa: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Samoa
+  PartValue: Samoa
+Samuel: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Samuel
+  PartValue: Samuel
+Sandra: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Sandra
+  PartValue: Sandra
+Sara: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Sara
+  PartValue: Sara
+Sarah: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Sarah
+  PartValue: Sarah
+Scott: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Scott
+  PartValue: Scott
+Sean: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Sean
+  PartValue: Sean
+Serbia: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Serbia
+  PartValue: Serbia
+Sharon: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Sharon
+  PartValue: Sharon
+Shawn: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Shawn
+  PartValue: Shawn
+Shirley: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Shirley
+  PartValue: Shirley
+Sierra Leone: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Sierra Leone
+  PartValue: Sierra Leone
+Slovenia: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Slovenia
+  PartValue: Slovenia
+South Africa: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: South Africa
+  PartValue: South Africa
+South Korea: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: South Korea
+  PartValue: South Korea
+Spain: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Spain
+  PartValue: Spain
+Stephanie: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Stephanie
+  PartValue: Stephanie
+Stephen: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Stephen
+  PartValue: Stephen
+Steve: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Steve
+  PartValue: Steve
+Steven: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Steven
+  PartValue: Steven
+Sudan: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Sudan
+  PartValue: Sudan
+Susan: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Susan
+  PartValue: Susan
+Swaziland: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Swaziland
+  PartValue: Swaziland
+Sweden: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Sweden
+  PartValue: Sweden
+Syria: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Syria
+  PartValue: Syria
+Taiwan: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Taiwan
+  PartValue: Taiwan
+Tajikistan: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Tajikistan
+  PartValue: Tajikistan
+Tammy: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Tammy
+  PartValue: Tammy
+Tanzania: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Tanzania
+  PartValue: Tanzania
+Teresa: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Teresa
+  PartValue: Teresa
+Terry: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Terry
+  PartValue: Terry
+Thailand: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Thailand
+  PartValue: Thailand
+Theresa: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Theresa
+  PartValue: Theresa
+Thomas: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Thomas
+  PartValue: Thomas
+Timothy: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Timothy
+  PartValue: Timothy
+Tina: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Tina
+  PartValue: Tina
+Todd: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Todd
+  PartValue: Todd
+Tunisia: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Tunisia
+  PartValue: Tunisia
+Uganda: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Uganda
+  PartValue: Uganda
+Ukraine: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Ukraine
+  PartValue: Ukraine
+United Kingdom: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: United Kingdom
+  PartValue: United Kingdom
+United States: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: United States
+  PartValue: United States
+Uruguay: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Uruguay
+  PartValue: Uruguay
+Uzbekistan: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Uzbekistan
+  PartValue: Uzbekistan
+Venezuela: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Venezuela
+  PartValue: Venezuela
+Victor: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Victor
+  PartValue: Victor
+Vietnam: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Vietnam
+  PartValue: Vietnam
+Virginia: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Virginia
+  PartValue: Virginia
+Walter: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Walter
+  PartValue: Walter
+Wanda: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Wanda
+  PartValue: Wanda
+Wayne: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Wayne
+  PartValue: Wayne
+William: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: William
+  PartValue: William
+Willie: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Willie
+  PartValue: Willie
+Yemen: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Yemen
+  PartValue: Yemen
+Zambia: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Zambia
+  PartValue: Zambia
+Zimbabwe: !!python/object:InterpretationEngines.AnyPart.AnyPart
+  ListOfConnectionTypes:
+    External: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: External}
+    Simple: !!python/object:InterpretationEngines.Connections.ConnectionTypeList {
+      typeID: Simple}
+  PartID: Zimbabwe
+  PartValue: Zimbabwe

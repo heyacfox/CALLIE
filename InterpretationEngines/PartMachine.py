@@ -50,4 +50,11 @@ class PartMachine:
     def getAnyPartID(self):
         somepartid = random.choice(list(self.listOfParts.keys()))
         return somepartid
+
+    def prettyPrint(self):
+        "PartMachine Pretty Print Initializing..."
+        for key in self.listOfParts.keys():
+            print("Key:" + key)
+            listOfParts[key].prettyPrint()
+            
             

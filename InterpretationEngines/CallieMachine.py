@@ -27,9 +27,9 @@ class CallieMachine:
     #this must be implemented on every machine
     def returnClassFromData(self):
         stream = open(self.dataStorageLocation)
-        return yaml.load(stream)
-        stream.close()
         print("Imported Class")
+        return yaml.load(stream)
+        
 
     #this is called when the thing is created. This is
     #how we get a starter file to work with
