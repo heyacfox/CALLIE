@@ -15,6 +15,10 @@ class PartMachine:
     def __init__(self, startLossLimit, startExpansionPercentage):
         self.LossLimit = startLossLimit
         self.MaxExpansionPercentage = startExpansionPercentage
+        #So here's something crazy. PartMachine DOES NOT
+        #INITIALIZE WITH LIST OF PARTS EVER
+        #It is always handled on the outside.
+        self.listOfParts = {}
 
     #a public function that will return a part from the list based 
     def getPartByID(self, SearchID):

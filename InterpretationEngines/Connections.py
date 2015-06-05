@@ -6,6 +6,7 @@ class ConnectionTypeList:
 
     def __init__(self, newTypeID):
         self.typeID = newTypeID
+        self.listOfConnection = {}
 
     def addTypeConnection(self, newConnection):
         self.listOfConnection[newConnection.PartID] = newConnection
@@ -27,6 +28,7 @@ class Connection:
     def __init__(self, newCallieMachine, newPartID):
         self.callieMachineStrRef = newCallieMachine
         self.PartID = newPartID
+        self.weight = 1
 
     def addWeight(self, value):
         self.weight = self.weight + value

@@ -20,6 +20,7 @@ class CallieMachine:
             with open(newDataStorageLocation) as file:
                 file.close()
         except IOError as e:
+            print("No file here yet, creating new file")
             self.createStorageLocation()
         self.dataStorageClass = self.returnClassFromData()
         self.callieMachineID = newID
