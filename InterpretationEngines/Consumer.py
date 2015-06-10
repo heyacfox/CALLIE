@@ -2,17 +2,17 @@
 
 class Consumer:
     data = ""
-    partMachine = ""
+    part_machine = ""
 
-    def __init__(self, newData, newPartMachine):
-        self.data = newData
-        self.partMachine = newPartMachine
+    def __init__(self, new_data, new_part_machine):
+        self.data = new_data
+        self.part_machine = new_part_machine
 
     def addDataToMachine(self):
         #this must return a part machine, it may be altered in some way
         #or it might not or whatever. The individual consumer gets to
         #decide this
-        #generically, just return the maachine
-        return self.partMachine
+        #generically, just return the machine
+        return self.part_machine
 
     

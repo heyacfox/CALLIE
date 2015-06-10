@@ -1,7 +1,7 @@
 class NotInMemoryError(Exception):
-    def __init__(self, IDOfError):
-        self.idError = IDOfError
+    def __init__(self, id_of_error):
+        self.id_error = id_of_error
 
 class OutOfMemoryError(Exception):
     def __init__(self):
-        self.myerror = "Ran out of memory"
+        self.my_error = "Ran out of memory"
