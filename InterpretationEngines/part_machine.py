@@ -2,6 +2,7 @@ from . import errors
 from . import any_part
 import math
 import random
+from . import connections
 
 #This is the dataStorageClass
 
@@ -53,7 +54,7 @@ class PartMachine:
 
     def get_any_part_id(self):
         some_part_id = random.choice(list(self.list_of_parts.keys()))
-        return somepartid
+        return some_part_id
 
     def pretty_print(self):
         "PartMachine Pretty Print Initializing..."
@@ -66,3 +67,17 @@ class PartMachine:
             return True
         else:
             return False
+
+    def add_connection_to_part(self, from_part_id, connection_type_id, to_callie_machine, to_part_id, passed_value=0, passed_connection_list=[]):
+#       #If we already have the part, we add a connection to it
+        if self.has_part(from_part_id):
+            part_obj_to_alter = self.get_part_by_id(from_part_id)
+            new_connection = connections.Connection(to_callie_machine, to_part_id)
+            part_obj_to_alter.add_connection(connection_type_id, new_connection)
+        #If we do not have the part, add it then add connection
+        else:
+            #I don't like where this is going.
+            self.receive_new_part(from_part_id, passed_value, passed_connection_list)
+            part_obj_to_alter = self.get_part_by_id(from_part_id)
+            new_connection = connections.Connection(to_callie_machine, to_part_id)
+            part_obj_to_alter.add_connection(connection_type_id, new_connection)

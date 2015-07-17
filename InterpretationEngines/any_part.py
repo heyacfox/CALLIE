@@ -1,6 +1,7 @@
 #Part Class
 from . import constants
 import random
+import copy
 
 class AnyPart:
     part_id = ""
@@ -33,16 +34,16 @@ class AnyPart:
         return newConnection
 
     def return_weighted_random_connection_in_type(self, type_search_id):
-        totally_new_dictionary = self.list_of_connection_types[type_search_id].copy()
-        totalWeight = 0
-        for key, value in totally_new_dictionary:
-            total_weight = total_weight + value.weight
+        totally_new_dictionary = copy.deepcopy(self.list_of_connection_types[type_search_id].list_of_connection)
+        total_weight = 0
+        for key in totally_new_dictionary.keys():
+            total_weight = total_weight + totally_new_dictionary[key].weight
         #after we have generated our total connection weights, we can do the breakdown
         random_weight = random.randint(1, total_weight - 1)
-        for key, value in totally_new_dictionary:
-            random_weight = random_weight - value.weight
+        for key in totally_new_dictionary.keys():
+            random_weight = random_weight - totally_new_dictionary[key].weight
             if random_weight < 0:
-                return value
+                return totally_new_dictionary[key]
 
     def return_total_connection_weight(self):
         total_connections_and_weights = 0
@@ -56,6 +57,12 @@ class AnyPart:
         #This should be checking to see if there is a connection in ANY of my types
         raise RuntimeError()
 
+    def has_any_connection(self):
+        #checks to see if there are no connections anywhere
+        if self.return_total_connection_weight > 0:
+            return True
+        else:
+            return False
 
     def has_connection_in_type(self, some_part_id, some_type):
         if some_type in self.list_of_connection_types:

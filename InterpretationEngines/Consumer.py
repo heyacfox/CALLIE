@@ -8,7 +8,7 @@ class Consumer:
         self.data = new_data
         self.part_machine = new_part_machine
 
-    def addDataToMachine(self):
+    def add_data_to_machine(self):
         #this must return a part machine, it may be altered in some way
         #or it might not or whatever. The individual consumer gets to
         #decide this

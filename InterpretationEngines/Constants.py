@@ -5,8 +5,10 @@ from . import connections
 WEIGHT_TO_ADD = 1
 
 #lossLimit
-MY_LOSS_LIMIT = 100
+MY_LOSS_LIMIT = 100000000000
 
 MY_EXPANSION_MAX = 0.1
 
-CON_TYPES_FOR_TEXT = {"Next": connections.connection_type_list("Next"), "Previous": connections.connection_type_list("Previous"), "External": connections.connection_type_list("External")}
+CON_TYPES_FOR_TEXT = {"Next": connections.ConnectionTypeList("Next"),
+                      "Previous": connections.ConnectionTypeList("Previous"),
+                      "External": connections.ConnectionTypeList("External")}
