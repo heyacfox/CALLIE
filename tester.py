@@ -35,4 +35,4 @@ mynewCallie.consumeContent(TextConsumer.TextConsumer(open("wolf2.txt").read(), m
 
 NEW_CALLIE = callie_machine.CallieMachine('pixel_storage.yaml', 'pixel_machine')
 #NEW_CALLIE.consume_content(pixel_consumer.PixelConsumer(Image.open('TopDataStore/arcticfox.png'), NEW_CALLIE.data_storage_class))
-NEW_CALLIE.generate_output(pixel_generator.PixelGenerator(NEW_CALLIE.data_storage_class, 20, 20, (0, 0)))
+NEW_CALLIE.generate_output(pixel_generator.PixelGenerator(NEW_CALLIE.data_storage_class, 100, 100, tuple([1, 1])))

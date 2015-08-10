@@ -27,8 +27,8 @@ class PixelConsumer(consumer.Consumer):
     #image file. We're going to assume that it's a PNG file I guess?
     def begin_consume(self, image_data, part_machine_obj):
         #image_data = Image.open(image_file_pat)
-        image_x = image_data.size[0] - 1
-        image_y = image_data.size[1] - 1
+        image_x = image_data.size[0]
+        image_y = image_data.size[1]
         pixels = image_data.load()
 
         for x_value in range(0, image_x):
@@ -47,7 +47,8 @@ class PixelConsumer(consumer.Consumer):
         #NEED X_MAX HERE
 
         #GET THE RGB VALUES
-        
+        max_x = max_x - 1
+        max_y = max_y - 1
         
         #North
         if (y_value > 0):
@@ -100,7 +101,7 @@ class PixelConsumer(consumer.Consumer):
                              part_machine_obj)
 
         #Southwest
-        if ((x_value > 0) and (y_value <max_y)):
+        if ((x_value > 0) and (y_value < max_y)):
             self.apply_to_machine(x_value,
                              y_value,
                              x_value - 1,

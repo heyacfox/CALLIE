@@ -7,10 +7,11 @@ from .. import constants
 import queue
 import random
 from PIL import Image
+import matplotlib.colors as colors
 
 class PixelGenerator:
 
-    def __init(self, new_part_machine, width, height, start_pixel_tuple):
+    def __init__(self, new_part_machine, width, height, start_pixel_tuple):
         self.part_machine = new_part_machine
         self.width = width
         self.height = height
@@ -24,8 +25,8 @@ class PixelGenerator:
         #WE START AT 0 YO BECAUSE OF THE PIXEL THING
         print("Making Dict Array")
         dict_array = {}
-        for x_value in range(0, self.width):
-            for y_value in range(0, self.height):
+        for x_value in range(1, self.width+1):
+            for y_value in range(1, self.height+1):
                 dict_array[tuple([x_value, y_value])] = ""
         #queue of pixel points and directions
         
@@ -48,17 +49,19 @@ class PixelGenerator:
             selected_pixel = pixel_queue.pop(0)
             #This should return me a list,
             #list of two elements, the value and the weight
-            potential_values = retrieve_potentials(selected_pixel[0],
+            potential_values = self.retrieve_potentials(selected_pixel[0],
                                                    selected_pixel[1],
                                                    dict_array)
             #potential_values is now a list of CONNECTIONS.
             #first, get our max weight
             max_weight = 0
             for con in potential_values:
-                max_weight = max_weight + con.weight
+                max_weight = max_weight + int(con.weight)
             if max_weight == 0:
                 #GAH JUST PICK SOMETHING AT RANDOM
+                
                 selected_color_hex = self.part_machine.get_any_part_id()
+                
             else:
                 #Otherwise, we stack through the things
                 decrement_weight = random.randint(0, max_weight)
@@ -67,14 +70,17 @@ class PixelGenerator:
                     if decrement_weight < 1:
                         selected_color_hex = con.part_id
             dict_array[selected_pixel[0], selected_pixel[1]] = selected_color_hex
+            #print("ColorHex:"+str(selected_pixel[0])+","+str(selected_pixel[1])+"|color:"+selected_color_hex)
         #AFTER THAT CRAZY WHILE LOOP ALL THE PIXELS HAVE BEEN PLACED
         #NOW WE PUT PIXELS ON THE IMAGE
         image_pixels = self.image_file.load()
         print("Writing Pixel Values")
+        #print(dict_array.keys())
+        #print(dict_array.values())
         for key in dict_array.keys():
-            image_pixels[key[0], key[1]] = hex_to_rgb(dict_array[key])
+            image_pixels[key[0]-1, key[1]-1] = hex_to_rgb(dict_array[key])
         #THEN, SAVE IT OUT
-        image_file.save("/TestImage.png")
+        self.image_file.save("TestImage.png")
         #combine the possible values from all        
         #surrounding filled in pixel values
             #so, now what do we DO with selected_color_hex?
@@ -98,12 +104,8 @@ class PixelGenerator:
                    [-1, -1, "SE"]]
         all_potentials = []
         for dir_adjust in adjusts:
+            all_potentials = all_potentials + self.retrieve_potentials_for_adjust(x_value,y_value,dir_adjust,dict_array)
             
-            all_potentials = all_potentials + self.retrieve_potentials_for_adjust(self,
-                                                                                  x_value,
-                                                                                  y_value,
-                                                                                  dir_adjust,
-                                                                                  dict_array)
         return all_potentials
             #First, check if there is a key for the
             #value at the adjust
@@ -145,7 +147,7 @@ class PixelGenerator:
                     
 
     def check_pixel(self, x_value, y_value, pixel_queue, dict_array):
-        if ((x != 0) and (y != 0)):
+        if ((x_value != 0) and (y_value != 0)):
             new_pixel_tuple = tuple([x_value,
                                      y_value])
             if new_pixel_tuple in dict_array:

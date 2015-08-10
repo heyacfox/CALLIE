@@ -73,9 +73,9 @@ class AnyPart:
     def get_connection_in_type(self, some_part_id, some_type):
         return self.ListOfConnectionTypes[someType].listOfConnection[somePartID]
 
-    #returns ALL CONNECTION KEYS MAKE SURE YOU WANT THIS
+    #returns ALL CONNECTIONS KEYS MAKE SURE YOU WANT THIS
     def get_all_connections_in_type(self, some_type):
-        return self.list_of_connection_types[some_type].keys()
+        return list(self.list_of_connection_types[some_type].list_of_connection.values())
 
     def pretty_print(self):
         print(self.part_value)
