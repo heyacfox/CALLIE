@@ -5,6 +5,7 @@ from .. import connections
 from .. import any_part
 from .. import errors
 from .. import constants
+import pixel_utilities
 import matplotlib.colors as colors
 import copy
 
@@ -30,6 +31,8 @@ class PixelConsumer(consumer.Consumer):
         image_x = image_data.size[0]
         image_y = image_data.size[1]
         pixels = image_data.load()
+
+        pixels = pixel_utilities.simplify_image_pixels(pixels, image_x, image_y)
 
         for x_value in range(0, image_x):
             print("x-row:"+str(x_value) +"|out of:"+str(image_x))
@@ -177,8 +180,13 @@ def hex_to_rgb(hex_string):
 def rgb_to_hex(rgb_tuple):
     return colors.rgb2hex([1.0*x/255 for x in rgb_tuple])
 
+
         #go row by row and get the pixel data
-        
+#for any image, I need to be able to determine what are the values
+#I should pick for it. Humans can't read all the pixels, just
+#values somewhere around the general range of colors.
+
+#Here's what you do, you take 
 
 #Code references:
 
