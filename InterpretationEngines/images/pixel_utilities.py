@@ -56,6 +56,8 @@ def creating_rgbs(pixel_list, width, height):
         for y in range(0, height):
             pixel_tuple = pixel_list[x,y]
             rgb_tuple = tuple([pixel_tuple[0], pixel_tuple[1], pixel_tuple[2]])
+            if rgb_tuple == (77, 69, 66):
+                print("Here's trouble first")
             #rgb_tuple = tuple([pixel_tuple[0],pixel_tuple[1],pixel_tuple[2])
             if rgb_tuple not in list_of_tuples:
                 list_of_tuples.append(rgb_tuple)
@@ -63,6 +65,10 @@ def creating_rgbs(pixel_list, width, height):
             else:
                 value_retrieved = find_element(rgb_tuple, returned_list_of_PLs)
                 value_retrieved.add_weight()
+    #TESTING
+    for x in returned_list_of_PLs:
+        if x.color_tuple == (77, 69, 66):
+            print("Here's trouble second")
     return returned_list_of_PLs
 
 #now, we have list_of_rgbs that we can use for our tests.
@@ -91,6 +97,9 @@ def sort_list_of_rgbs(sublist_rgbs):
     #we want to sort
     #all the things. Start at the beginning
     returned_list = []
+    for x in sublist_rgbs:
+        if x.color_tuple == (77, 69, 66):
+            print("Here is trouble 3")
     sublist_rgbs = copy.deepcopy(sublist_rgbs)
     value_first = sublist_rgbs[0]
     print(value_first.color_tuple)
@@ -98,13 +107,18 @@ def sort_list_of_rgbs(sublist_rgbs):
     #print(returned_list)
     #first thing.
     sublist_rgbs = sublist_rgbs[1:]
-    while len(sublist_rgbs) > 1:
+    while len(sublist_rgbs) > 0:
         if (len(sublist_rgbs) % 100 == 0):
             print(str(len(sublist_rgbs)))
         #THIS NEEDS TO COME FROM THE VALUE WE JUST PICKED NOT THE 0th THING!
         value_next = sort_lists_helper(returned_list[-1], sublist_rgbs)
+        if value_next.color_tuple == (77, 69, 66):
+            print("This is trouble")
         returned_list.append(value_next)
         sublist_rgbs.remove(value_next)
+    for x in returned_list:
+        if x.color_tuple == (77, 69, 66):
+            print("Trouble 4")
     return returned_list
 
 def sort_lists_helper(one_rgb, sublist):
@@ -169,6 +183,8 @@ def stackify_rgbs(sublist_rgbs):
     #creating weight stacks
     for pl in sublist_rgbs:
         stack_dict[pl] = [pl]
+        if pl.color_tuple == (77, 69, 66):
+            print("Here's trouble")
     low_rank_value = 1
     num_stacks = math.ceil(calculate_distances(sublist_rgbs))
     print("total stacks needed:" + str(num_stacks))
@@ -254,6 +270,25 @@ def create_tuple_from_list(element, sublist_rgbs, stack_dict):
     
 def get_me_element(direction, index, sublist_rgbs, stack_dict):
     #These need to be re-written because I'm getting infinite recursion errors
+    result = "XXX"
+    if direction == "left":
+        while index > 0:
+            result = get_me_element_helper(index, sublist_rgbs, stack_dict)
+            if result == "XXX":
+                index = index - 1
+            else:
+                return result
+        return result
+    if direction == "right":
+        while index < len(sublist_rgbs):
+            result = get_me_element_helper(index, sublist_rgbs, stack_dict)
+            if result == "XXX":
+                index = index + 1
+            else:
+                return result
+        return result
+    #Okay didn't get anything cause we couldn't pass the while just return XXX
+    return result
     """
     if sublist_rgbs[index] in stack_dict:
         return sublist_rgbs[index]
@@ -274,8 +309,10 @@ def get_me_element(direction, index, sublist_rgbs, stack_dict):
     raise RuntimeError("There is no possible element in this sector")
     """
 def get_me_element_helper(index_to_check, sublist_rgbs, stack_dict):
-    if sublist_rgbs[index] in stack_dict:
-        return sublist_rgbs[index]
+    if sublist_rgbs[index_to_check] in stack_dict:
+        return sublist_rgbs[index_to_check]
+    else:
+        return "XXX"
 
 def get_weight_rank_stack_keys(rank, stack_dict):
     list_of_keys = []
@@ -328,24 +365,29 @@ def simplify_from_stack(pixels, PL_stack, width, height):
     pixel_map = pixels
 
     stack_tuplefied = simplify_stack(PL_stack)
-
+    print(stack_tuplefied)
+    print(stack_tuplefied.keys())
     for x in range(0, width):
         for y in range(0, height):
             temp_pix = pixel_map[x,y]
-            pixel_map[x,y] = return_altered_pixel((temp_pix[0],
+            print(str(temp_pix))
+            temp_tuple = return_altered_pixel(tuple([temp_pix[0],
                                                    temp_pix[1],
-                                                   temp_pix[2]), stack_tuplefied)
+                                                   temp_pix[2]]), stack_tuplefied)
+            print(str(x) + "|" + str(y) + ":" +str(temp_tuple))
+            pixel_map[x,y] = temp_tuple
     return pixel_map
 
 def return_altered_pixel(color_tuple, stack_tuplefied):
     #at the end of this, return a triple tuple pixel value
+    
     for key in stack_tuplefied.keys():
         if key == color_tuple:
             return key
         else:
             if color_tuple in stack_tuplefied[key]:
                 return key
-    RuntimeError("Wasn't in stack for some reason")
+    return "XXXXXX"
     
     
 def simplify_stack(PL_stack):
@@ -355,7 +397,10 @@ def simplify_stack(PL_stack):
         new_values = []
         for PL in PL_stack[key]:
             new_values.append(PL.color_tuple)
+            if PL.color_tuple == (77, 69, 66):
+                print("Here's trouble again")
         simple_stack[new_key] = new_values
+    return simple_stack
     
 
 
@@ -366,6 +411,7 @@ def simplify_image_pixels(pixels, width, height):
     super_sorted_list_of_PLs = sort_list_of_rgbs(sorted_list_of_PLs)
     stackified_PLs = stackify_rgbs(super_sorted_list_of_PLs)
     new_pixel_map = simplify_from_stack(pixels, stackified_PLs, width, height)
+    return new_pixel_map
     
 
 #These are the steps with the fake tuple list
