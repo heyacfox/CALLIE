@@ -195,7 +195,7 @@ def stackify_rgbs(sublist_rgbs):
                     choice_left_dist = dist_between_3d_points(gotten_element.color_tuple, choice_tuple[0].color_tuple)
                 if choice_tuple[1] != "XXX":
                     choice_right_dist = dist_between_3d_points(gotten_element.color_tuple, choice_tuple[1].color_tuple)
-                print("Leftish:"+str(choice_left_dist)+"|Rightish:"+str(choice_right_dist))
+                #print("Leftish:"+str(choice_left_dist)+"|Rightish:"+str(choice_right_dist))
                 if choice_left_dist < choice_right_dist:
                     choosen_tuple = choice_tuple[0]
                 else:
@@ -253,23 +253,29 @@ def create_tuple_from_list(element, sublist_rgbs, stack_dict):
     return tuple([left_tuple, right_tuple])
     
 def get_me_element(direction, index, sublist_rgbs, stack_dict):
+    #These need to be re-written because I'm getting infinite recursion errors
+    """
     if sublist_rgbs[index] in stack_dict:
         return sublist_rgbs[index]
     else:
         if direction == "left":
-            print("left-len:"+str(len(sublist_rgbs))+"|Index:"+str(index))
+            #print("left-len:"+str(len(sublist_rgbs))+"|Index:"+str(index))
             if index == 0:
                 return "XXX"
             else:
                 return get_me_element("left", index - 1, sublist_rgbs, stack_dict)
         if direction == "right":
-            print("right-len:"+str(len(sublist_rgbs))+"|Index:"+str(index))
+            #print("right-len:"+str(len(sublist_rgbs))+"|Index:"+str(index))
             if index == (len(sublist_rgbs) - 1):
-                print("Index:"+str(index)+"|Sublist_val:"+str(len(sublist_rgbs) - 1))
+                #print("Index:"+str(index)+"|Sublist_val:"+str(len(sublist_rgbs) - 1))
                 return "XXX"
             else:
                 return get_me_element("right", index + 1, sublist_rgbs, stack_dict)
     raise RuntimeError("There is no possible element in this sector")
+    """
+def get_me_element_helper(index_to_check, sublist_rgbs, stack_dict):
+    if sublist_rgbs[index] in stack_dict:
+        return sublist_rgbs[index]
 
 def get_weight_rank_stack_keys(rank, stack_dict):
     list_of_keys = []
@@ -383,7 +389,7 @@ stackified_fake_PL_list = stackify_rgbs(sorted_fake_PL_list)
 print("Stackified")
 #print(stackified_fake_PL_list)
 """
-
+"""
 #new arctic fox mix:
 im = Image.open("arcticfox2.png")
 print(im.format, im.size, im.mode)
@@ -396,3 +402,4 @@ super_sorted_list_of_PLs = sort_list_of_rgbs(sorted_list_of_PLs)
 stackified_PLs = stackify_rgbs(super_sorted_list_of_PLs)
 
 print("Stackified Arctic Fox")
+"""

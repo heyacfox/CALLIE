@@ -5,7 +5,7 @@ from .. import connections
 from .. import any_part
 from .. import errors
 from .. import constants
-import pixel_utilities
+from . import pixel_utilities
 import matplotlib.colors as colors
 import copy
 
