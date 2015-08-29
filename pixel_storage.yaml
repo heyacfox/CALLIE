@@ -5,121 +5,631 @@ list_of_parts:
       E: !!python/object:InterpretationEngines.connections.ConnectionTypeList
         list_of_connection:
           '#272823': !!python/object:InterpretationEngines.connections.Connection {
-            callie_machine_str_ref: Self, part_id: '#272823', weight: 135}
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 407}
+          '#4d4c34': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#4d4c34', weight: 33}
+          '#555041': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#555041', weight: 27}
+          '#5e4b26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#5e4b26', weight: 21}
           '#604b29': !!python/object:InterpretationEngines.connections.Connection {
             callie_machine_str_ref: Self, part_id: '#604b29', weight: 45}
+          '#624a26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#624a26', weight: 14}
+          '#7b6d42': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7b6d42', weight: 21}
+          '#7e6743': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7e6743', weight: 24}
           '#857447': !!python/object:InterpretationEngines.connections.Connection {
             callie_machine_str_ref: Self, part_id: '#857447', weight: 24}
           '#9a9b90': !!python/object:InterpretationEngines.connections.Connection {
             callie_machine_str_ref: Self, part_id: '#9a9b90', weight: 2}
+          '#a7acb1': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#a7acb1', weight: 2}
+          '#f0f2f5': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#f0f2f5', weight: 5}
           '#ffffff': !!python/object:InterpretationEngines.connections.Connection {
-            callie_machine_str_ref: Self, part_id: '#ffffff', weight: 5}
+            callie_machine_str_ref: Self, part_id: '#ffffff', weight: 10}
         type_id: E
       N: !!python/object:InterpretationEngines.connections.ConnectionTypeList
         list_of_connection:
           '#272823': !!python/object:InterpretationEngines.connections.Connection {
-            callie_machine_str_ref: Self, part_id: '#272823', weight: 109}
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 328}
+          '#4d4c34': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#4d4c34', weight: 40}
+          '#555041': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#555041', weight: 27}
+          '#5e4b26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#5e4b26', weight: 45}
           '#604b29': !!python/object:InterpretationEngines.connections.Connection {
             callie_machine_str_ref: Self, part_id: '#604b29', weight: 70}
+          '#624a26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#624a26', weight: 33}
+          '#7b6d42': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7b6d42', weight: 27}
+          '#7e6743': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7e6743', weight: 29}
           '#857447': !!python/object:InterpretationEngines.connections.Connection {
             callie_machine_str_ref: Self, part_id: '#857447', weight: 29}
           '#9a9b90': !!python/object:InterpretationEngines.connections.Connection {
             callie_machine_str_ref: Self, part_id: '#9a9b90', weight: 2}
+          '#a7acb1': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#a7acb1', weight: 2}
+          '#f0f2f5': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#f0f2f5', weight: 9}
           '#ffffff': !!python/object:InterpretationEngines.connections.Connection {
-            callie_machine_str_ref: Self, part_id: '#ffffff', weight: 9}
+            callie_machine_str_ref: Self, part_id: '#ffffff', weight: 18}
         type_id: N
       NE: !!python/object:InterpretationEngines.connections.ConnectionTypeList
         list_of_connection:
           '#272823': !!python/object:InterpretationEngines.connections.Connection {
-            callie_machine_str_ref: Self, part_id: '#272823', weight: 102}
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 308}
+          '#4d4c34': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#4d4c34', weight: 42}
+          '#555041': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#555041', weight: 30}
+          '#5e4b26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#5e4b26', weight: 40}
           '#604b29': !!python/object:InterpretationEngines.connections.Connection {
             callie_machine_str_ref: Self, part_id: '#604b29', weight: 64}
+          '#624a26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#624a26', weight: 28}
+          '#7b6d42': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7b6d42', weight: 28}
+          '#7e6743': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7e6743', weight: 32}
           '#857447': !!python/object:InterpretationEngines.connections.Connection {
             callie_machine_str_ref: Self, part_id: '#857447', weight: 34}
           '#9a9b90': !!python/object:InterpretationEngines.connections.Connection {
             callie_machine_str_ref: Self, part_id: '#9a9b90', weight: 4}
+          '#a7acb1': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#a7acb1', weight: 5}
           '#c4c5c1': !!python/object:InterpretationEngines.connections.Connection {
             callie_machine_str_ref: Self, part_id: '#c4c5c1', weight: 1}
+          '#ced3d7': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ced3d7', weight: 1}
+          '#f0f2f5': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#f0f2f5', weight: 6}
           '#ffffff': !!python/object:InterpretationEngines.connections.Connection {
-            callie_machine_str_ref: Self, part_id: '#ffffff', weight: 6}
+            callie_machine_str_ref: Self, part_id: '#ffffff', weight: 12}
         type_id: NE
       NW: !!python/object:InterpretationEngines.connections.ConnectionTypeList
         list_of_connection:
           '#272823': !!python/object:InterpretationEngines.connections.Connection {
-            callie_machine_str_ref: Self, part_id: '#272823', weight: 98}
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 296}
+          '#4d4c34': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#4d4c34', weight: 35}
+          '#555041': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#555041', weight: 24}
+          '#5e4b26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#5e4b26', weight: 39}
           '#604b29': !!python/object:InterpretationEngines.connections.Connection {
             callie_machine_str_ref: Self, part_id: '#604b29', weight: 60}
+          '#624a26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#624a26', weight: 27}
+          '#7b6d42': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7b6d42', weight: 35}
+          '#7e6743': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7e6743', weight: 38}
           '#857447': !!python/object:InterpretationEngines.connections.Connection {
             callie_machine_str_ref: Self, part_id: '#857447', weight: 38}
           '#9a9b90': !!python/object:InterpretationEngines.connections.Connection {
             callie_machine_str_ref: Self, part_id: '#9a9b90', weight: 2}
+          '#a7acb1': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#a7acb1', weight: 2}
           '#c4c5c1': !!python/object:InterpretationEngines.connections.Connection {
             callie_machine_str_ref: Self, part_id: '#c4c5c1', weight: 2}
+          '#ced3d7': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ced3d7', weight: 2}
+          '#f0f2f5': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#f0f2f5', weight: 14}
           '#ffffff': !!python/object:InterpretationEngines.connections.Connection {
-            callie_machine_str_ref: Self, part_id: '#ffffff', weight: 12}
+            callie_machine_str_ref: Self, part_id: '#ffffff', weight: 24}
         type_id: NW
       S: !!python/object:InterpretationEngines.connections.ConnectionTypeList
         list_of_connection:
           '#272823': !!python/object:InterpretationEngines.connections.Connection {
-            callie_machine_str_ref: Self, part_id: '#272823', weight: 109}
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 328}
+          '#4d4c34': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#4d4c34', weight: 26}
+          '#555041': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#555041', weight: 22}
+          '#5e4b26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#5e4b26', weight: 31}
           '#604b29': !!python/object:InterpretationEngines.connections.Connection {
             callie_machine_str_ref: Self, part_id: '#604b29', weight: 50}
+          '#624a26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#624a26', weight: 27}
+          '#7b6d42': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7b6d42', weight: 30}
+          '#7e6743': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7e6743', weight: 36}
           '#857447': !!python/object:InterpretationEngines.connections.Connection {
             callie_machine_str_ref: Self, part_id: '#857447', weight: 33}
           '#9a9b90': !!python/object:InterpretationEngines.connections.Connection {
             callie_machine_str_ref: Self, part_id: '#9a9b90', weight: 6}
+          '#a7acb1': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#a7acb1', weight: 8}
           '#c4c5c1': !!python/object:InterpretationEngines.connections.Connection {
             callie_machine_str_ref: Self, part_id: '#c4c5c1', weight: 2}
+          '#ced3d7': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ced3d7', weight: 3}
+          '#f0f2f5': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#f0f2f5', weight: 10}
           '#ffffff': !!python/object:InterpretationEngines.connections.Connection {
-            callie_machine_str_ref: Self, part_id: '#ffffff', weight: 10}
+            callie_machine_str_ref: Self, part_id: '#ffffff', weight: 20}
         type_id: S
       SE: !!python/object:InterpretationEngines.connections.ConnectionTypeList
         list_of_connection:
           '#272823': !!python/object:InterpretationEngines.connections.Connection {
-            callie_machine_str_ref: Self, part_id: '#272823', weight: 98}
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 296}
+          '#4d4c34': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#4d4c34', weight: 26}
+          '#555041': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#555041', weight: 21}
+          '#5e4b26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#5e4b26', weight: 33}
           '#604b29': !!python/object:InterpretationEngines.connections.Connection {
             callie_machine_str_ref: Self, part_id: '#604b29', weight: 51}
+          '#624a26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#624a26', weight: 27}
+          '#7b6d42': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7b6d42', weight: 31}
+          '#7e6743': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7e6743', weight: 35}
           '#857447': !!python/object:InterpretationEngines.connections.Connection {
             callie_machine_str_ref: Self, part_id: '#857447', weight: 34}
           '#9a9b90': !!python/object:InterpretationEngines.connections.Connection {
             callie_machine_str_ref: Self, part_id: '#9a9b90', weight: 4}
+          '#a7acb1': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#a7acb1', weight: 5}
           '#c4c5c1': !!python/object:InterpretationEngines.connections.Connection {
             callie_machine_str_ref: Self, part_id: '#c4c5c1', weight: 1}
+          '#ced3d7': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ced3d7', weight: 2}
+          '#f0f2f5': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#f0f2f5', weight: 14}
           '#ffffff': !!python/object:InterpretationEngines.connections.Connection {
-            callie_machine_str_ref: Self, part_id: '#ffffff', weight: 14}
+            callie_machine_str_ref: Self, part_id: '#ffffff', weight: 28}
         type_id: SE
       SW: !!python/object:InterpretationEngines.connections.ConnectionTypeList
         list_of_connection:
           '#272823': !!python/object:InterpretationEngines.connections.Connection {
-            callie_machine_str_ref: Self, part_id: '#272823', weight: 102}
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 308}
+          '#4d4c34': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#4d4c34', weight: 29}
+          '#555041': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#555041', weight: 23}
+          '#5e4b26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#5e4b26', weight: 32}
           '#604b29': !!python/object:InterpretationEngines.connections.Connection {
             callie_machine_str_ref: Self, part_id: '#604b29', weight: 53}
+          '#624a26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#624a26', weight: 24}
+          '#7b6d42': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7b6d42', weight: 31}
+          '#7e6743': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7e6743', weight: 35}
           '#857447': !!python/object:InterpretationEngines.connections.Connection {
             callie_machine_str_ref: Self, part_id: '#857447', weight: 33}
           '#9a9b90': !!python/object:InterpretationEngines.connections.Connection {
             callie_machine_str_ref: Self, part_id: '#9a9b90', weight: 4}
+          '#a7acb1': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#a7acb1', weight: 6}
           '#c4c5c1': !!python/object:InterpretationEngines.connections.Connection {
             callie_machine_str_ref: Self, part_id: '#c4c5c1', weight: 3}
+          '#ced3d7': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ced3d7', weight: 7}
+          '#f0f2f5': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#f0f2f5', weight: 10}
           '#ffffff': !!python/object:InterpretationEngines.connections.Connection {
-            callie_machine_str_ref: Self, part_id: '#ffffff', weight: 9}
+            callie_machine_str_ref: Self, part_id: '#ffffff', weight: 16}
         type_id: SW
       W: !!python/object:InterpretationEngines.connections.ConnectionTypeList
         list_of_connection:
           '#272823': !!python/object:InterpretationEngines.connections.Connection {
-            callie_machine_str_ref: Self, part_id: '#272823', weight: 135}
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 407}
+          '#4d4c34': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#4d4c34', weight: 29}
+          '#555041': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#555041', weight: 22}
+          '#5e4b26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#5e4b26', weight: 25}
           '#604b29': !!python/object:InterpretationEngines.connections.Connection {
             callie_machine_str_ref: Self, part_id: '#604b29', weight: 46}
+          '#624a26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#624a26', weight: 18}
+          '#7b6d42': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7b6d42', weight: 17}
+          '#7e6743': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7e6743', weight: 20}
           '#857447': !!python/object:InterpretationEngines.connections.Connection {
             callie_machine_str_ref: Self, part_id: '#857447', weight: 18}
           '#9a9b90': !!python/object:InterpretationEngines.connections.Connection {
             callie_machine_str_ref: Self, part_id: '#9a9b90', weight: 4}
+          '#a7acb1': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#a7acb1', weight: 4}
           '#c4c5c1': !!python/object:InterpretationEngines.connections.Connection {
             callie_machine_str_ref: Self, part_id: '#c4c5c1', weight: 1}
+          '#ced3d7': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ced3d7', weight: 4}
+          '#f0f2f5': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#f0f2f5', weight: 9}
           '#ffffff': !!python/object:InterpretationEngines.connections.Connection {
-            callie_machine_str_ref: Self, part_id: '#ffffff', weight: 8}
+            callie_machine_str_ref: Self, part_id: '#ffffff', weight: 14}
         type_id: W
     part_id: '#272823'
     part_value: '#272823'
+  '#4d4c34': !!python/object:InterpretationEngines.any_part.AnyPart
+    list_of_connection_types:
+      E: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 29}
+          '#4d4c34': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#4d4c34', weight: 49}
+          '#624a26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#624a26', weight: 14}
+          '#7e6743': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7e6743', weight: 55}
+          '#ced3d7': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ced3d7', weight: 4}
+          '#ffffff': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ffffff', weight: 9}
+        type_id: E
+      N: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 26}
+          '#4d4c34': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#4d4c34', weight: 39}
+          '#624a26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#624a26', weight: 18}
+          '#7e6743': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7e6743', weight: 67}
+          '#ced3d7': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ced3d7', weight: 4}
+          '#ffffff': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ffffff', weight: 8}
+        type_id: N
+      NE: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 29}
+          '#4d4c34': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#4d4c34', weight: 37}
+          '#624a26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#624a26', weight: 13}
+          '#7e6743': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7e6743', weight: 61}
+          '#ced3d7': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ced3d7', weight: 7}
+          '#ffffff': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ffffff', weight: 8}
+        type_id: NE
+      NW: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 26}
+          '#4d4c34': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#4d4c34', weight: 35}
+          '#624a26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#624a26', weight: 21}
+          '#7e6743': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7e6743', weight: 58}
+          '#ced3d7': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ced3d7', weight: 4}
+          '#ffffff': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ffffff', weight: 16}
+        type_id: NW
+      S: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 40}
+          '#4d4c34': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#4d4c34', weight: 39}
+          '#624a26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#624a26', weight: 15}
+          '#7e6743': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7e6743', weight: 46}
+          '#ced3d7': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ced3d7', weight: 4}
+          '#ffffff': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ffffff', weight: 6}
+        type_id: S
+      SE: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 35}
+          '#4d4c34': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#4d4c34', weight: 35}
+          '#624a26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#624a26', weight: 16}
+          '#7e6743': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7e6743', weight: 38}
+          '#ced3d7': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ced3d7', weight: 4}
+          '#ffffff': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ffffff', weight: 15}
+        type_id: SE
+      SW: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 42}
+          '#4d4c34': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#4d4c34', weight: 37}
+          '#624a26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#624a26', weight: 16}
+          '#7e6743': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7e6743', weight: 42}
+          '#ced3d7': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ced3d7', weight: 6}
+          '#ffffff': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ffffff', weight: 5}
+        type_id: SW
+      W: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 33}
+          '#4d4c34': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#4d4c34', weight: 49}
+          '#624a26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#624a26', weight: 20}
+          '#7e6743': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7e6743', weight: 53}
+          '#ced3d7': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ced3d7', weight: 2}
+          '#ffffff': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ffffff', weight: 8}
+        type_id: W
+    part_id: '#4d4c34'
+    part_value: '#4d4c34'
+  '#555041': !!python/object:InterpretationEngines.any_part.AnyPart
+    list_of_connection_types:
+      E: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 22}
+          '#555041': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#555041', weight: 39}
+          '#5e4b26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#5e4b26', weight: 3}
+          '#7b6d42': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7b6d42', weight: 33}
+          '#a7acb1': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#a7acb1', weight: 11}
+          '#f0f2f5': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#f0f2f5', weight: 8}
+        type_id: E
+      N: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 22}
+          '#555041': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#555041', weight: 28}
+          '#5e4b26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#5e4b26', weight: 12}
+          '#7b6d42': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7b6d42', weight: 38}
+          '#a7acb1': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#a7acb1', weight: 13}
+          '#f0f2f5': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#f0f2f5', weight: 6}
+        type_id: N
+      NE: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 23}
+          '#555041': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#555041', weight: 25}
+          '#5e4b26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#5e4b26', weight: 12}
+          '#7b6d42': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7b6d42', weight: 31}
+          '#a7acb1': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#a7acb1', weight: 13}
+          '#f0f2f5': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#f0f2f5', weight: 10}
+        type_id: NE
+      NW: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 21}
+          '#555041': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#555041', weight: 23}
+          '#5e4b26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#5e4b26', weight: 17}
+          '#7b6d42': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7b6d42', weight: 36}
+          '#a7acb1': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#a7acb1', weight: 8}
+          '#f0f2f5': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#f0f2f5', weight: 12}
+        type_id: NW
+      S: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 27}
+          '#555041': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#555041', weight: 28}
+          '#5e4b26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#5e4b26', weight: 10}
+          '#7b6d42': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7b6d42', weight: 29}
+          '#a7acb1': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#a7acb1', weight: 7}
+          '#f0f2f5': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#f0f2f5', weight: 5}
+        type_id: S
+      SE: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 24}
+          '#555041': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#555041', weight: 23}
+          '#5e4b26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#5e4b26', weight: 10}
+          '#7b6d42': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7b6d42', weight: 22}
+          '#a7acb1': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#a7acb1', weight: 13}
+          '#f0f2f5': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#f0f2f5', weight: 9}
+        type_id: SE
+      SW: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 30}
+          '#555041': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#555041', weight: 25}
+          '#5e4b26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#5e4b26', weight: 9}
+          '#7b6d42': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7b6d42', weight: 26}
+          '#a7acb1': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#a7acb1', weight: 9}
+          '#f0f2f5': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#f0f2f5', weight: 5}
+        type_id: SW
+      W: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 27}
+          '#555041': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#555041', weight: 39}
+          '#5e4b26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#5e4b26', weight: 4}
+          '#7b6d42': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7b6d42', weight: 37}
+          '#a7acb1': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#a7acb1', weight: 7}
+          '#f0f2f5': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#f0f2f5', weight: 5}
+        type_id: W
+    part_id: '#555041'
+    part_value: '#555041'
+  '#5e4b26': !!python/object:InterpretationEngines.any_part.AnyPart
+    list_of_connection_types:
+      E: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 25}
+          '#555041': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#555041', weight: 4}
+          '#5e4b26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#5e4b26', weight: 98}
+          '#7b6d42': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7b6d42', weight: 40}
+          '#a7acb1': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#a7acb1', weight: 2}
+          '#f0f2f5': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#f0f2f5', weight: 10}
+        type_id: E
+      N: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 31}
+          '#555041': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#555041', weight: 10}
+          '#5e4b26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#5e4b26', weight: 64}
+          '#7b6d42': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7b6d42', weight: 61}
+          '#f0f2f5': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#f0f2f5', weight: 9}
+        type_id: N
+      NE: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 32}
+          '#555041': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#555041', weight: 9}
+          '#5e4b26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#5e4b26', weight: 60}
+          '#7b6d42': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7b6d42', weight: 59}
+          '#a7acb1': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#a7acb1', weight: 1}
+          '#f0f2f5': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#f0f2f5', weight: 7}
+        type_id: NE
+      NW: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 33}
+          '#555041': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#555041', weight: 10}
+          '#5e4b26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#5e4b26', weight: 52}
+          '#7b6d42': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7b6d42', weight: 61}
+          '#a7acb1': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#a7acb1', weight: 2}
+          '#f0f2f5': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#f0f2f5', weight: 11}
+        type_id: NW
+      S: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 45}
+          '#555041': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#555041', weight: 12}
+          '#5e4b26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#5e4b26', weight: 64}
+          '#7b6d42': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7b6d42', weight: 49}
+          '#a7acb1': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#a7acb1', weight: 1}
+          '#f0f2f5': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#f0f2f5', weight: 13}
+        type_id: S
+      SE: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 39}
+          '#555041': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#555041', weight: 17}
+          '#5e4b26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#5e4b26', weight: 52}
+          '#7b6d42': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7b6d42', weight: 48}
+          '#a7acb1': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#a7acb1', weight: 3}
+          '#f0f2f5': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#f0f2f5', weight: 18}
+        type_id: SE
+      SW: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 40}
+          '#555041': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#555041', weight: 12}
+          '#5e4b26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#5e4b26', weight: 60}
+          '#7b6d42': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7b6d42', weight: 50}
+          '#a7acb1': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#a7acb1', weight: 5}
+          '#f0f2f5': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#f0f2f5', weight: 11}
+        type_id: SW
+      W: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 21}
+          '#555041': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#555041', weight: 3}
+          '#5e4b26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#5e4b26', weight: 98}
+          '#7b6d42': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7b6d42', weight: 47}
+          '#a7acb1': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#a7acb1', weight: 3}
+          '#f0f2f5': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#f0f2f5', weight: 8}
+        type_id: W
+    part_id: '#5e4b26'
+    part_value: '#5e4b26'
   '#604b29': !!python/object:InterpretationEngines.any_part.AnyPart
     list_of_connection_types:
       E: !!python/object:InterpretationEngines.connections.ConnectionTypeList
@@ -244,6 +754,524 @@ list_of_parts:
         type_id: W
     part_id: '#604b29'
     part_value: '#604b29'
+  '#624a26': !!python/object:InterpretationEngines.any_part.AnyPart
+    list_of_connection_types:
+      E: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 18}
+          '#4d4c34': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#4d4c34', weight: 20}
+          '#624a26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#624a26', weight: 60}
+          '#7e6743': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7e6743', weight: 28}
+          '#ffffff': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ffffff', weight: 7}
+        type_id: E
+      N: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 27}
+          '#4d4c34': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#4d4c34', weight: 15}
+          '#624a26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#624a26', weight: 40}
+          '#7e6743': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7e6743', weight: 43}
+          '#ffffff': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ffffff', weight: 5}
+        type_id: N
+      NE: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 24}
+          '#4d4c34': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#4d4c34', weight: 16}
+          '#624a26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#624a26', weight: 40}
+          '#7e6743': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7e6743', weight: 41}
+          '#ffffff': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ffffff', weight: 4}
+        type_id: NE
+      NW: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 27}
+          '#4d4c34': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#4d4c34', weight: 16}
+          '#624a26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#624a26', weight: 30}
+          '#7e6743': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7e6743', weight: 47}
+          '#ced3d7': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ced3d7', weight: 2}
+          '#ffffff': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ffffff', weight: 2}
+        type_id: NW
+      S: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 33}
+          '#4d4c34': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#4d4c34', weight: 18}
+          '#624a26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#624a26', weight: 40}
+          '#7e6743': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7e6743', weight: 37}
+          '#ced3d7': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ced3d7', weight: 2}
+          '#ffffff': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ffffff', weight: 8}
+        type_id: S
+      SE: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 27}
+          '#4d4c34': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#4d4c34', weight: 21}
+          '#624a26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#624a26', weight: 30}
+          '#7e6743': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7e6743', weight: 42}
+          '#ced3d7': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ced3d7', weight: 2}
+          '#ffffff': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ffffff', weight: 11}
+        type_id: SE
+      SW: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 28}
+          '#4d4c34': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#4d4c34', weight: 13}
+          '#624a26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#624a26', weight: 40}
+          '#7e6743': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7e6743', weight: 42}
+          '#ced3d7': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ced3d7', weight: 2}
+          '#ffffff': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ffffff', weight: 7}
+        type_id: SW
+      W: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 14}
+          '#4d4c34': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#4d4c34', weight: 14}
+          '#624a26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#624a26', weight: 60}
+          '#7e6743': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7e6743', weight: 40}
+          '#ced3d7': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ced3d7', weight: 1}
+          '#ffffff': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ffffff', weight: 3}
+        type_id: W
+    part_id: '#624a26'
+    part_value: '#624a26'
+  '#625633': !!python/object:InterpretationEngines.any_part.AnyPart
+    list_of_connection_types:
+      E: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#625633': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#625633', weight: 6756}
+          '#6a5b2f': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#6a5b2f', weight: 1088}
+          '#c5cdcf': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#c5cdcf', weight: 412}
+        type_id: E
+      N: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#625633': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#625633', weight: 6559}
+          '#6a5b2f': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#6a5b2f', weight: 1289}
+          '#c5cdcf': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#c5cdcf', weight: 444}
+        type_id: N
+      NE: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#625633': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#625633', weight: 6434}
+          '#6a5b2f': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#6a5b2f', weight: 1334}
+          '#c5cdcf': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#c5cdcf', weight: 446}
+        type_id: NE
+      NW: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#625633': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#625633', weight: 6367}
+          '#6a5b2f': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#6a5b2f', weight: 1347}
+          '#c5cdcf': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#c5cdcf', weight: 504}
+        type_id: NW
+      S: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#625633': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#625633', weight: 6559}
+          '#6a5b2f': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#6a5b2f', weight: 1184}
+          '#c5cdcf': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#c5cdcf', weight: 505}
+        type_id: S
+      SE: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#625633': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#625633', weight: 6367}
+          '#6a5b2f': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#6a5b2f', weight: 1242}
+          '#c5cdcf': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#c5cdcf', weight: 562}
+        type_id: SE
+      SW: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#625633': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#625633', weight: 6434}
+          '#6a5b2f': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#6a5b2f', weight: 1238}
+          '#c5cdcf': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#c5cdcf', weight: 501}
+        type_id: SW
+      W: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#625633': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#625633', weight: 6756}
+          '#6a5b2f': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#6a5b2f', weight: 1106}
+          '#c5cdcf': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#c5cdcf', weight: 397}
+        type_id: W
+    part_id: '#625633'
+    part_value: '#625633'
+  '#6a5b2f': !!python/object:InterpretationEngines.any_part.AnyPart
+    list_of_connection_types:
+      E: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#625633': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#625633', weight: 1106}
+          '#6a5b2f': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#6a5b2f', weight: 2964}
+          '#c5cdcf': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#c5cdcf', weight: 422}
+        type_id: E
+      N: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#625633': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#625633', weight: 1184}
+          '#6a5b2f': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#6a5b2f', weight: 2766}
+          '#c5cdcf': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#c5cdcf', weight: 440}
+        type_id: N
+      NE: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#625633': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#625633', weight: 1238}
+          '#6a5b2f': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#6a5b2f', weight: 2656}
+          '#c5cdcf': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#c5cdcf', weight: 467}
+        type_id: NE
+      NW: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#625633': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#625633', weight: 1242}
+          '#6a5b2f': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#6a5b2f', weight: 2603}
+          '#c5cdcf': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#c5cdcf', weight: 518}
+        type_id: NW
+      S: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#625633': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#625633', weight: 1289}
+          '#6a5b2f': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#6a5b2f', weight: 2766}
+          '#c5cdcf': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#c5cdcf', weight: 421}
+        type_id: S
+      SE: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#625633': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#625633', weight: 1347}
+          '#6a5b2f': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#6a5b2f', weight: 2603}
+          '#c5cdcf': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#c5cdcf', weight: 496}
+        type_id: SE
+      SW: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#625633': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#625633', weight: 1334}
+          '#6a5b2f': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#6a5b2f', weight: 2656}
+          '#c5cdcf': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#c5cdcf', weight: 459}
+        type_id: SW
+      W: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#625633': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#625633', weight: 1088}
+          '#6a5b2f': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#6a5b2f', weight: 2964}
+          '#c5cdcf': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#c5cdcf', weight: 443}
+        type_id: W
+    part_id: '#6a5b2f'
+    part_value: '#6a5b2f'
+  '#7b6d42': !!python/object:InterpretationEngines.any_part.AnyPart
+    list_of_connection_types:
+      E: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 17}
+          '#555041': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#555041', weight: 37}
+          '#5e4b26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#5e4b26', weight: 47}
+          '#7b6d42': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7b6d42', weight: 145}
+          '#a7acb1': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#a7acb1', weight: 26}
+          '#f0f2f5': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#f0f2f5', weight: 23}
+        type_id: E
+      N: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 30}
+          '#555041': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#555041', weight: 29}
+          '#5e4b26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#5e4b26', weight: 49}
+          '#7b6d42': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7b6d42', weight: 110}
+          '#a7acb1': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#a7acb1', weight: 35}
+          '#f0f2f5': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#f0f2f5', weight: 17}
+        type_id: N
+      NE: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 31}
+          '#555041': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#555041', weight: 26}
+          '#5e4b26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#5e4b26', weight: 50}
+          '#7b6d42': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7b6d42', weight: 101}
+          '#a7acb1': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#a7acb1', weight: 31}
+          '#f0f2f5': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#f0f2f5', weight: 26}
+        type_id: NE
+      NW: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 31}
+          '#555041': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#555041', weight: 22}
+          '#5e4b26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#5e4b26', weight: 48}
+          '#7b6d42': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7b6d42', weight: 91}
+          '#a7acb1': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#a7acb1', weight: 45}
+          '#f0f2f5': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#f0f2f5', weight: 22}
+        type_id: NW
+      S: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 27}
+          '#555041': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#555041', weight: 38}
+          '#5e4b26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#5e4b26', weight: 61}
+          '#7b6d42': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7b6d42', weight: 110}
+          '#a7acb1': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#a7acb1', weight: 23}
+          '#f0f2f5': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#f0f2f5', weight: 26}
+        type_id: S
+      SE: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 35}
+          '#555041': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#555041', weight: 36}
+          '#5e4b26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#5e4b26', weight: 61}
+          '#7b6d42': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7b6d42', weight: 91}
+          '#a7acb1': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#a7acb1', weight: 22}
+          '#f0f2f5': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#f0f2f5', weight: 34}
+        type_id: SE
+      SW: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 28}
+          '#555041': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#555041', weight: 31}
+          '#5e4b26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#5e4b26', weight: 59}
+          '#7b6d42': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7b6d42', weight: 101}
+          '#a7acb1': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#a7acb1', weight: 19}
+          '#f0f2f5': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#f0f2f5', weight: 35}
+        type_id: SW
+      W: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 21}
+          '#555041': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#555041', weight: 33}
+          '#5e4b26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#5e4b26', weight: 40}
+          '#7b6d42': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7b6d42', weight: 145}
+          '#a7acb1': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#a7acb1', weight: 30}
+          '#f0f2f5': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#f0f2f5', weight: 20}
+        type_id: W
+    part_id: '#7b6d42'
+    part_value: '#7b6d42'
+  '#7e6743': !!python/object:InterpretationEngines.any_part.AnyPart
+    list_of_connection_types:
+      E: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 20}
+          '#4d4c34': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#4d4c34', weight: 53}
+          '#624a26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#624a26', weight: 40}
+          '#7e6743': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7e6743', weight: 251}
+          '#ced3d7': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ced3d7', weight: 30}
+          '#ffffff': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ffffff', weight: 34}
+        type_id: E
+      N: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 36}
+          '#4d4c34': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#4d4c34', weight: 46}
+          '#624a26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#624a26', weight: 37}
+          '#7e6743': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7e6743', weight: 225}
+          '#ced3d7': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ced3d7', weight: 29}
+          '#ffffff': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ffffff', weight: 28}
+        type_id: N
+      NE: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 35}
+          '#4d4c34': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#4d4c34', weight: 42}
+          '#624a26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#624a26', weight: 42}
+          '#7e6743': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7e6743', weight: 199}
+          '#ced3d7': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ced3d7', weight: 41}
+          '#ffffff': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ffffff', weight: 37}
+        type_id: NE
+      NW: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 35}
+          '#4d4c34': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#4d4c34', weight: 38}
+          '#624a26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#624a26', weight: 42}
+          '#7e6743': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7e6743', weight: 195}
+          '#ced3d7': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ced3d7', weight: 50}
+          '#ffffff': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ffffff', weight: 30}
+        type_id: NW
+      S: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 29}
+          '#4d4c34': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#4d4c34', weight: 67}
+          '#624a26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#624a26', weight: 43}
+          '#7e6743': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7e6743', weight: 225}
+          '#ced3d7': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ced3d7', weight: 14}
+          '#ffffff': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ffffff', weight: 36}
+        type_id: S
+      SE: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 38}
+          '#4d4c34': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#4d4c34', weight: 58}
+          '#624a26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#624a26', weight: 47}
+          '#7e6743': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7e6743', weight: 195}
+          '#ced3d7': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ced3d7', weight: 25}
+          '#ffffff': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ffffff', weight: 45}
+        type_id: SE
+      SW: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 32}
+          '#4d4c34': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#4d4c34', weight: 61}
+          '#624a26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#624a26', weight: 41}
+          '#7e6743': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7e6743', weight: 199}
+          '#ced3d7': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ced3d7', weight: 29}
+          '#ffffff': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ffffff', weight: 40}
+        type_id: SW
+      W: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 24}
+          '#4d4c34': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#4d4c34', weight: 55}
+          '#624a26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#624a26', weight: 28}
+          '#7e6743': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7e6743', weight: 251}
+          '#ced3d7': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ced3d7', weight: 36}
+          '#ffffff': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ffffff', weight: 28}
+        type_id: W
+    part_id: '#7e6743'
+    part_value: '#7e6743'
   '#857447': !!python/object:InterpretationEngines.any_part.AnyPart
     list_of_connection_types:
       E: !!python/object:InterpretationEngines.connections.ConnectionTypeList
@@ -492,6 +1520,128 @@ list_of_parts:
         type_id: W
     part_id: '#9a9b90'
     part_value: '#9a9b90'
+  '#a7acb1': !!python/object:InterpretationEngines.any_part.AnyPart
+    list_of_connection_types:
+      E: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 4}
+          '#555041': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#555041', weight: 7}
+          '#5e4b26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#5e4b26', weight: 3}
+          '#7b6d42': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7b6d42', weight: 30}
+          '#a7acb1': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#a7acb1', weight: 117}
+          '#f0f2f5': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#f0f2f5', weight: 52}
+        type_id: E
+      N: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 8}
+          '#555041': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#555041', weight: 7}
+          '#5e4b26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#5e4b26', weight: 1}
+          '#7b6d42': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7b6d42', weight: 23}
+          '#a7acb1': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#a7acb1', weight: 129}
+          '#f0f2f5': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#f0f2f5', weight: 43}
+        type_id: N
+      NE: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 6}
+          '#555041': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#555041', weight: 9}
+          '#5e4b26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#5e4b26', weight: 5}
+          '#7b6d42': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7b6d42', weight: 19}
+          '#a7acb1': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#a7acb1', weight: 115}
+          '#f0f2f5': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#f0f2f5', weight: 57}
+        type_id: NE
+      NW: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 5}
+          '#555041': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#555041', weight: 13}
+          '#5e4b26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#5e4b26', weight: 3}
+          '#7b6d42': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7b6d42', weight: 22}
+          '#a7acb1': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#a7acb1', weight: 108}
+          '#f0f2f5': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#f0f2f5', weight: 60}
+        type_id: NW
+      S: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 2}
+          '#555041': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#555041', weight: 13}
+          '#7b6d42': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7b6d42', weight: 35}
+          '#a7acb1': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#a7acb1', weight: 129}
+          '#f0f2f5': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#f0f2f5', weight: 30}
+        type_id: S
+      SE: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 2}
+          '#555041': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#555041', weight: 8}
+          '#5e4b26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#5e4b26', weight: 2}
+          '#7b6d42': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7b6d42', weight: 45}
+          '#a7acb1': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#a7acb1', weight: 108}
+          '#f0f2f5': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#f0f2f5', weight: 44}
+        type_id: SE
+      SW: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 5}
+          '#555041': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#555041', weight: 13}
+          '#5e4b26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#5e4b26', weight: 1}
+          '#7b6d42': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7b6d42', weight: 31}
+          '#a7acb1': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#a7acb1', weight: 115}
+          '#f0f2f5': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#f0f2f5', weight: 44}
+        type_id: SW
+      W: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 2}
+          '#555041': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#555041', weight: 11}
+          '#5e4b26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#5e4b26', weight: 2}
+          '#7b6d42': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7b6d42', weight: 26}
+          '#a7acb1': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#a7acb1', weight: 117}
+          '#f0f2f5': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#f0f2f5', weight: 55}
+        type_id: W
+    part_id: '#a7acb1'
+    part_value: '#a7acb1'
   '#c4c5c1': !!python/object:InterpretationEngines.any_part.AnyPart
     list_of_connection_types:
       E: !!python/object:InterpretationEngines.connections.ConnectionTypeList
@@ -612,127 +1762,505 @@ list_of_parts:
         type_id: W
     part_id: '#c4c5c1'
     part_value: '#c4c5c1'
+  '#c5cdcf': !!python/object:InterpretationEngines.any_part.AnyPart
+    list_of_connection_types:
+      E: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#625633': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#625633', weight: 397}
+          '#6a5b2f': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#6a5b2f', weight: 443}
+          '#c5cdcf': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#c5cdcf', weight: 7040}
+        type_id: E
+      N: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#625633': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#625633', weight: 505}
+          '#6a5b2f': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#6a5b2f', weight: 421}
+          '#c5cdcf': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#c5cdcf', weight: 6936}
+        type_id: N
+      NE: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#625633': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#625633', weight: 501}
+          '#6a5b2f': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#6a5b2f', weight: 459}
+          '#c5cdcf': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#c5cdcf', weight: 6902}
+        type_id: NE
+      NW: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#625633': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#625633', weight: 562}
+          '#6a5b2f': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#6a5b2f', weight: 496}
+          '#c5cdcf': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#c5cdcf', weight: 6798}
+        type_id: NW
+      S: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#625633': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#625633', weight: 444}
+          '#6a5b2f': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#6a5b2f', weight: 440}
+          '#c5cdcf': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#c5cdcf', weight: 6936}
+        type_id: S
+      SE: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#625633': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#625633', weight: 504}
+          '#6a5b2f': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#6a5b2f', weight: 518}
+          '#c5cdcf': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#c5cdcf', weight: 6798}
+        type_id: SE
+      SW: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#625633': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#625633', weight: 446}
+          '#6a5b2f': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#6a5b2f', weight: 467}
+          '#c5cdcf': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#c5cdcf', weight: 6902}
+        type_id: SW
+      W: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#625633': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#625633', weight: 412}
+          '#6a5b2f': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#6a5b2f', weight: 422}
+          '#c5cdcf': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#c5cdcf', weight: 7040}
+        type_id: W
+    part_id: '#c5cdcf'
+    part_value: '#c5cdcf'
+  '#ced3d7': !!python/object:InterpretationEngines.any_part.AnyPart
+    list_of_connection_types:
+      E: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 4}
+          '#4d4c34': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#4d4c34', weight: 2}
+          '#624a26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#624a26', weight: 1}
+          '#7e6743': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7e6743', weight: 36}
+          '#ced3d7': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ced3d7', weight: 84}
+          '#ffffff': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ffffff', weight: 32}
+        type_id: E
+      N: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 3}
+          '#4d4c34': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#4d4c34', weight: 4}
+          '#624a26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#624a26', weight: 2}
+          '#7e6743': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7e6743', weight: 14}
+          '#ced3d7': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ced3d7', weight: 98}
+          '#ffffff': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ffffff', weight: 38}
+        type_id: N
+      NE: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 7}
+          '#4d4c34': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#4d4c34', weight: 6}
+          '#624a26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#624a26', weight: 2}
+          '#7e6743': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7e6743', weight: 29}
+          '#ced3d7': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ced3d7', weight: 80}
+          '#ffffff': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ffffff', weight: 35}
+        type_id: NE
+      NW: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 2}
+          '#4d4c34': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#4d4c34', weight: 4}
+          '#624a26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#624a26', weight: 2}
+          '#7e6743': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7e6743', weight: 25}
+          '#ced3d7': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ced3d7', weight: 76}
+          '#ffffff': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ffffff', weight: 50}
+        type_id: NW
+      S: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#4d4c34': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#4d4c34', weight: 4}
+          '#7e6743': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7e6743', weight: 29}
+          '#ced3d7': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ced3d7', weight: 98}
+          '#ffffff': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ffffff', weight: 28}
+        type_id: S
+      SE: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 2}
+          '#4d4c34': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#4d4c34', weight: 4}
+          '#624a26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#624a26', weight: 2}
+          '#7e6743': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7e6743', weight: 50}
+          '#ced3d7': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ced3d7', weight: 76}
+          '#ffffff': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ffffff', weight: 25}
+        type_id: SE
+      SW: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 1}
+          '#4d4c34': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#4d4c34', weight: 7}
+          '#7e6743': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7e6743', weight: 41}
+          '#ced3d7': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ced3d7', weight: 80}
+          '#ffffff': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ffffff', weight: 30}
+        type_id: SW
+      W: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#4d4c34': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#4d4c34', weight: 4}
+          '#7e6743': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7e6743', weight: 30}
+          '#ced3d7': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ced3d7', weight: 84}
+          '#ffffff': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ffffff', weight: 41}
+        type_id: W
+    part_id: '#ced3d7'
+    part_value: '#ced3d7'
+  '#f0f2f5': !!python/object:InterpretationEngines.any_part.AnyPart
+    list_of_connection_types:
+      E: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 9}
+          '#555041': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#555041', weight: 5}
+          '#5e4b26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#5e4b26', weight: 8}
+          '#7b6d42': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7b6d42', weight: 20}
+          '#a7acb1': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#a7acb1', weight: 55}
+          '#f0f2f5': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#f0f2f5', weight: 158}
+        type_id: E
+      N: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 10}
+          '#555041': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#555041', weight: 5}
+          '#5e4b26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#5e4b26', weight: 13}
+          '#7b6d42': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7b6d42', weight: 26}
+          '#a7acb1': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#a7acb1', weight: 30}
+          '#f0f2f5': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#f0f2f5', weight: 170}
+        type_id: N
+      NE: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 10}
+          '#555041': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#555041', weight: 5}
+          '#5e4b26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#5e4b26', weight: 11}
+          '#7b6d42': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7b6d42', weight: 35}
+          '#a7acb1': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#a7acb1', weight: 44}
+          '#f0f2f5': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#f0f2f5', weight: 148}
+        type_id: NE
+      NW: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 14}
+          '#555041': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#555041', weight: 9}
+          '#5e4b26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#5e4b26', weight: 18}
+          '#7b6d42': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7b6d42', weight: 34}
+          '#a7acb1': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#a7acb1', weight: 44}
+          '#f0f2f5': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#f0f2f5', weight: 135}
+        type_id: NW
+      S: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 9}
+          '#555041': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#555041', weight: 6}
+          '#5e4b26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#5e4b26', weight: 9}
+          '#7b6d42': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7b6d42', weight: 17}
+          '#a7acb1': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#a7acb1', weight: 43}
+          '#f0f2f5': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#f0f2f5', weight: 170}
+        type_id: S
+      SE: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 14}
+          '#555041': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#555041', weight: 12}
+          '#5e4b26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#5e4b26', weight: 11}
+          '#7b6d42': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7b6d42', weight: 22}
+          '#a7acb1': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#a7acb1', weight: 60}
+          '#f0f2f5': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#f0f2f5', weight: 135}
+        type_id: SE
+      SW: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 6}
+          '#555041': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#555041', weight: 10}
+          '#5e4b26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#5e4b26', weight: 7}
+          '#7b6d42': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7b6d42', weight: 26}
+          '#a7acb1': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#a7acb1', weight: 57}
+          '#f0f2f5': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#f0f2f5', weight: 148}
+        type_id: SW
+      W: !!python/object:InterpretationEngines.connections.ConnectionTypeList
+        list_of_connection:
+          '#272823': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 5}
+          '#555041': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#555041', weight: 8}
+          '#5e4b26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#5e4b26', weight: 10}
+          '#7b6d42': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7b6d42', weight: 23}
+          '#a7acb1': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#a7acb1', weight: 52}
+          '#f0f2f5': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#f0f2f5', weight: 158}
+        type_id: W
+    part_id: '#f0f2f5'
+    part_value: '#f0f2f5'
   '#ffffff': !!python/object:InterpretationEngines.any_part.AnyPart
     list_of_connection_types:
       E: !!python/object:InterpretationEngines.connections.ConnectionTypeList
         list_of_connection:
           '#272823': !!python/object:InterpretationEngines.connections.Connection {
-            callie_machine_str_ref: Self, part_id: '#272823', weight: 8}
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 14}
+          '#4d4c34': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#4d4c34', weight: 8}
           '#604b29': !!python/object:InterpretationEngines.connections.Connection {
             callie_machine_str_ref: Self, part_id: '#604b29', weight: 10}
+          '#624a26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#624a26', weight: 3}
+          '#7e6743': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7e6743', weight: 28}
           '#857447': !!python/object:InterpretationEngines.connections.Connection {
             callie_machine_str_ref: Self, part_id: '#857447', weight: 18}
           '#9a9b90': !!python/object:InterpretationEngines.connections.Connection {
             callie_machine_str_ref: Self, part_id: '#9a9b90', weight: 15}
           '#c4c5c1': !!python/object:InterpretationEngines.connections.Connection {
             callie_machine_str_ref: Self, part_id: '#c4c5c1', weight: 38}
+          '#ced3d7': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ced3d7', weight: 41}
           '#ffffff': !!python/object:InterpretationEngines.connections.Connection {
-            callie_machine_str_ref: Self, part_id: '#ffffff', weight: 126}
+            callie_machine_str_ref: Self, part_id: '#ffffff', weight: 216}
         type_id: E
       N: !!python/object:InterpretationEngines.connections.ConnectionTypeList
         list_of_connection:
           '#272823': !!python/object:InterpretationEngines.connections.Connection {
-            callie_machine_str_ref: Self, part_id: '#272823', weight: 10}
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 20}
+          '#4d4c34': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#4d4c34', weight: 6}
           '#604b29': !!python/object:InterpretationEngines.connections.Connection {
             callie_machine_str_ref: Self, part_id: '#604b29', weight: 13}
+          '#624a26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#624a26', weight: 8}
+          '#7e6743': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7e6743', weight: 36}
           '#857447': !!python/object:InterpretationEngines.connections.Connection {
             callie_machine_str_ref: Self, part_id: '#857447', weight: 27}
           '#9a9b90': !!python/object:InterpretationEngines.connections.Connection {
             callie_machine_str_ref: Self, part_id: '#9a9b90', weight: 11}
           '#c4c5c1': !!python/object:InterpretationEngines.connections.Connection {
             callie_machine_str_ref: Self, part_id: '#c4c5c1', weight: 24}
+          '#ced3d7': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ced3d7', weight: 28}
           '#ffffff': !!python/object:InterpretationEngines.connections.Connection {
-            callie_machine_str_ref: Self, part_id: '#ffffff', weight: 129}
+            callie_machine_str_ref: Self, part_id: '#ffffff', weight: 216}
         type_id: N
       NE: !!python/object:InterpretationEngines.connections.ConnectionTypeList
         list_of_connection:
           '#272823': !!python/object:InterpretationEngines.connections.Connection {
-            callie_machine_str_ref: Self, part_id: '#272823', weight: 9}
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 16}
+          '#4d4c34': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#4d4c34', weight: 5}
           '#604b29': !!python/object:InterpretationEngines.connections.Connection {
             callie_machine_str_ref: Self, part_id: '#604b29', weight: 12}
+          '#624a26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#624a26', weight: 7}
+          '#7e6743': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7e6743', weight: 40}
           '#857447': !!python/object:InterpretationEngines.connections.Connection {
             callie_machine_str_ref: Self, part_id: '#857447', weight: 30}
           '#9a9b90': !!python/object:InterpretationEngines.connections.Connection {
             callie_machine_str_ref: Self, part_id: '#9a9b90', weight: 14}
           '#c4c5c1': !!python/object:InterpretationEngines.connections.Connection {
             callie_machine_str_ref: Self, part_id: '#c4c5c1', weight: 29}
+          '#ced3d7': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ced3d7', weight: 30}
           '#ffffff': !!python/object:InterpretationEngines.connections.Connection {
-            callie_machine_str_ref: Self, part_id: '#ffffff', weight: 119}
+            callie_machine_str_ref: Self, part_id: '#ffffff', weight: 204}
         type_id: NE
       NW: !!python/object:InterpretationEngines.connections.ConnectionTypeList
         list_of_connection:
           '#272823': !!python/object:InterpretationEngines.connections.Connection {
-            callie_machine_str_ref: Self, part_id: '#272823', weight: 14}
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 28}
+          '#4d4c34': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#4d4c34', weight: 15}
           '#604b29': !!python/object:InterpretationEngines.connections.Connection {
             callie_machine_str_ref: Self, part_id: '#604b29', weight: 24}
+          '#624a26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#624a26', weight: 11}
+          '#7e6743': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7e6743', weight: 45}
           '#857447': !!python/object:InterpretationEngines.connections.Connection {
             callie_machine_str_ref: Self, part_id: '#857447', weight: 33}
           '#9a9b90': !!python/object:InterpretationEngines.connections.Connection {
             callie_machine_str_ref: Self, part_id: '#9a9b90', weight: 17}
           '#c4c5c1': !!python/object:InterpretationEngines.connections.Connection {
             callie_machine_str_ref: Self, part_id: '#c4c5c1', weight: 25}
+          '#ced3d7': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ced3d7', weight: 25}
           '#ffffff': !!python/object:InterpretationEngines.connections.Connection {
-            callie_machine_str_ref: Self, part_id: '#ffffff', weight: 101}
+            callie_machine_str_ref: Self, part_id: '#ffffff', weight: 166}
         type_id: NW
       S: !!python/object:InterpretationEngines.connections.ConnectionTypeList
         list_of_connection:
           '#272823': !!python/object:InterpretationEngines.connections.Connection {
-            callie_machine_str_ref: Self, part_id: '#272823', weight: 9}
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 18}
+          '#4d4c34': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#4d4c34', weight: 8}
           '#604b29': !!python/object:InterpretationEngines.connections.Connection {
             callie_machine_str_ref: Self, part_id: '#604b29', weight: 14}
+          '#624a26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#624a26', weight: 5}
+          '#7e6743': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7e6743', weight: 28}
           '#857447': !!python/object:InterpretationEngines.connections.Connection {
             callie_machine_str_ref: Self, part_id: '#857447', weight: 16}
           '#9a9b90': !!python/object:InterpretationEngines.connections.Connection {
             callie_machine_str_ref: Self, part_id: '#9a9b90', weight: 14}
           '#c4c5c1': !!python/object:InterpretationEngines.connections.Connection {
             callie_machine_str_ref: Self, part_id: '#c4c5c1', weight: 32}
+          '#ced3d7': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ced3d7', weight: 38}
           '#ffffff': !!python/object:InterpretationEngines.connections.Connection {
-            callie_machine_str_ref: Self, part_id: '#ffffff', weight: 129}
+            callie_machine_str_ref: Self, part_id: '#ffffff', weight: 216}
         type_id: S
       SE: !!python/object:InterpretationEngines.connections.ConnectionTypeList
         list_of_connection:
           '#272823': !!python/object:InterpretationEngines.connections.Connection {
-            callie_machine_str_ref: Self, part_id: '#272823', weight: 12}
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 24}
+          '#4d4c34': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#4d4c34', weight: 16}
           '#604b29': !!python/object:InterpretationEngines.connections.Connection {
             callie_machine_str_ref: Self, part_id: '#604b29', weight: 18}
+          '#624a26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#624a26', weight: 2}
+          '#7e6743': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7e6743', weight: 30}
           '#857447': !!python/object:InterpretationEngines.connections.Connection {
             callie_machine_str_ref: Self, part_id: '#857447', weight: 22}
           '#9a9b90': !!python/object:InterpretationEngines.connections.Connection {
             callie_machine_str_ref: Self, part_id: '#9a9b90', weight: 14}
           '#c4c5c1': !!python/object:InterpretationEngines.connections.Connection {
             callie_machine_str_ref: Self, part_id: '#c4c5c1', weight: 47}
+          '#ced3d7': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ced3d7', weight: 50}
           '#ffffff': !!python/object:InterpretationEngines.connections.Connection {
-            callie_machine_str_ref: Self, part_id: '#ffffff', weight: 101}
+            callie_machine_str_ref: Self, part_id: '#ffffff', weight: 166}
         type_id: SE
       SW: !!python/object:InterpretationEngines.connections.ConnectionTypeList
         list_of_connection:
           '#272823': !!python/object:InterpretationEngines.connections.Connection {
-            callie_machine_str_ref: Self, part_id: '#272823', weight: 6}
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 12}
+          '#4d4c34': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#4d4c34', weight: 8}
           '#604b29': !!python/object:InterpretationEngines.connections.Connection {
             callie_machine_str_ref: Self, part_id: '#604b29', weight: 11}
+          '#624a26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#624a26', weight: 4}
+          '#7e6743': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7e6743', weight: 37}
           '#857447': !!python/object:InterpretationEngines.connections.Connection {
             callie_machine_str_ref: Self, part_id: '#857447', weight: 28}
           '#9a9b90': !!python/object:InterpretationEngines.connections.Connection {
             callie_machine_str_ref: Self, part_id: '#9a9b90', weight: 19}
           '#c4c5c1': !!python/object:InterpretationEngines.connections.Connection {
             callie_machine_str_ref: Self, part_id: '#c4c5c1', weight: 31}
+          '#ced3d7': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ced3d7', weight: 35}
           '#ffffff': !!python/object:InterpretationEngines.connections.Connection {
-            callie_machine_str_ref: Self, part_id: '#ffffff', weight: 119}
+            callie_machine_str_ref: Self, part_id: '#ffffff', weight: 204}
         type_id: SW
       W: !!python/object:InterpretationEngines.connections.ConnectionTypeList
         list_of_connection:
           '#272823': !!python/object:InterpretationEngines.connections.Connection {
-            callie_machine_str_ref: Self, part_id: '#272823', weight: 5}
+            callie_machine_str_ref: Self, part_id: '#272823', weight: 10}
+          '#4d4c34': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#4d4c34', weight: 9}
           '#604b29': !!python/object:InterpretationEngines.connections.Connection {
             callie_machine_str_ref: Self, part_id: '#604b29', weight: 15}
+          '#624a26': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#624a26', weight: 7}
+          '#7e6743': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#7e6743', weight: 34}
           '#857447': !!python/object:InterpretationEngines.connections.Connection {
             callie_machine_str_ref: Self, part_id: '#857447', weight: 24}
           '#9a9b90': !!python/object:InterpretationEngines.connections.Connection {
             callie_machine_str_ref: Self, part_id: '#9a9b90', weight: 18}
           '#c4c5c1': !!python/object:InterpretationEngines.connections.Connection {
             callie_machine_str_ref: Self, part_id: '#c4c5c1', weight: 28}
+          '#ced3d7': !!python/object:InterpretationEngines.connections.Connection {
+            callie_machine_str_ref: Self, part_id: '#ced3d7', weight: 32}
           '#ffffff': !!python/object:InterpretationEngines.connections.Connection {
-            callie_machine_str_ref: Self, part_id: '#ffffff', weight: 126}
+            callie_machine_str_ref: Self, part_id: '#ffffff', weight: 216}
         type_id: W
     part_id: '#ffffff'
     part_value: '#ffffff'

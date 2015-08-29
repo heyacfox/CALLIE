@@ -56,8 +56,8 @@ def creating_rgbs(pixel_list, width, height):
         for y in range(0, height):
             pixel_tuple = pixel_list[x,y]
             rgb_tuple = tuple([pixel_tuple[0], pixel_tuple[1], pixel_tuple[2]])
-            if rgb_tuple == (77, 69, 66):
-                print("Here's trouble first")
+            #if rgb_tuple == (77, 69, 66):
+                #print("Here's trouble first")
             #rgb_tuple = tuple([pixel_tuple[0],pixel_tuple[1],pixel_tuple[2])
             if rgb_tuple not in list_of_tuples:
                 list_of_tuples.append(rgb_tuple)
@@ -66,9 +66,9 @@ def creating_rgbs(pixel_list, width, height):
                 value_retrieved = find_element(rgb_tuple, returned_list_of_PLs)
                 value_retrieved.add_weight()
     #TESTING
-    for x in returned_list_of_PLs:
-        if x.color_tuple == (77, 69, 66):
-            print("Here's trouble second")
+    #for x in returned_list_of_PLs:
+        #if x.color_tuple == (77, 69, 66):
+            #print("Here's trouble second")
     return returned_list_of_PLs
 
 #now, we have list_of_rgbs that we can use for our tests.
@@ -97,12 +97,12 @@ def sort_list_of_rgbs(sublist_rgbs):
     #we want to sort
     #all the things. Start at the beginning
     returned_list = []
-    for x in sublist_rgbs:
-        if x.color_tuple == (77, 69, 66):
-            print("Here is trouble 3")
+    #for x in sublist_rgbs:
+        #if x.color_tuple == (77, 69, 66):
+            #print("Here is trouble 3")
     sublist_rgbs = copy.deepcopy(sublist_rgbs)
     value_first = sublist_rgbs[0]
-    print(value_first.color_tuple)
+    #print(value_first.color_tuple)
     returned_list.append(value_first)
     #print(returned_list)
     #first thing.
@@ -112,13 +112,13 @@ def sort_list_of_rgbs(sublist_rgbs):
             print(str(len(sublist_rgbs)))
         #THIS NEEDS TO COME FROM THE VALUE WE JUST PICKED NOT THE 0th THING!
         value_next = sort_lists_helper(returned_list[-1], sublist_rgbs)
-        if value_next.color_tuple == (77, 69, 66):
-            print("This is trouble")
+        #if value_next.color_tuple == (77, 69, 66):
+            #print("This is trouble")
         returned_list.append(value_next)
         sublist_rgbs.remove(value_next)
-    for x in returned_list:
-        if x.color_tuple == (77, 69, 66):
-            print("Trouble 4")
+    #for x in returned_list:
+        #if x.color_tuple == (77, 69, 66):
+            #print("Trouble 4")
     return returned_list
 
 def sort_lists_helper(one_rgb, sublist):
@@ -183,8 +183,8 @@ def stackify_rgbs(sublist_rgbs):
     #creating weight stacks
     for pl in sublist_rgbs:
         stack_dict[pl] = [pl]
-        if pl.color_tuple == (77, 69, 66):
-            print("Here's trouble")
+        #if pl.color_tuple == (77, 69, 66):
+            #print("Here's trouble")
     low_rank_value = 1
     num_stacks = math.ceil(calculate_distances(sublist_rgbs))
     print("total stacks needed:" + str(num_stacks))
@@ -194,7 +194,8 @@ def stackify_rgbs(sublist_rgbs):
         #now that we have our list, pick things out of it at random
         length = len(lowest_rank_list)
         while length > 0:
-            print(str(length))
+            if (length % 100) == 0:
+                print(str(length))
             #we need to pop an element and decide where it will go
             #until we break it all down
             #THIS DOESn'T WORK BECAUSE I CAN'T PULL INDEXES FROM THE STACK DICT
@@ -365,16 +366,16 @@ def simplify_from_stack(pixels, PL_stack, width, height):
     pixel_map = pixels
 
     stack_tuplefied = simplify_stack(PL_stack)
-    print(stack_tuplefied)
-    print(stack_tuplefied.keys())
+    #print(stack_tuplefied)
+    #print(stack_tuplefied.keys())
     for x in range(0, width):
         for y in range(0, height):
             temp_pix = pixel_map[x,y]
-            print(str(temp_pix))
+            #print(str(temp_pix))
             temp_tuple = return_altered_pixel(tuple([temp_pix[0],
                                                    temp_pix[1],
                                                    temp_pix[2]]), stack_tuplefied)
-            print(str(x) + "|" + str(y) + ":" +str(temp_tuple))
+            #print(str(x) + "|" + str(y) + ":" +str(temp_tuple))
             pixel_map[x,y] = temp_tuple
     return pixel_map
 
@@ -397,8 +398,8 @@ def simplify_stack(PL_stack):
         new_values = []
         for PL in PL_stack[key]:
             new_values.append(PL.color_tuple)
-            if PL.color_tuple == (77, 69, 66):
-                print("Here's trouble again")
+            #if PL.color_tuple == (77, 69, 66):
+                #print("Here's trouble again")
         simple_stack[new_key] = new_values
     return simple_stack
     

@@ -32,6 +32,8 @@ class PixelConsumer(consumer.Consumer):
         image_y = image_data.size[1]
         pixels = image_data.load()
 
+        #
+
         pixels = pixel_utilities.simplify_image_pixels(pixels, image_x, image_y)
 
         for x_value in range(0, image_x):
