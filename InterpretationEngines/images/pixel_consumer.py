@@ -8,6 +8,7 @@ from .. import constants
 from . import pixel_utilities
 import matplotlib.colors as colors
 import copy
+import math
 
 PART_CON_TYPES = {"N":connections.ConnectionTypeList("N"),
                   "NE":connections.ConnectionTypeList("NE"),
@@ -28,11 +29,16 @@ class PixelConsumer(consumer.Consumer):
     #image file. We're going to assume that it's a PNG file I guess?
     def begin_consume(self, image_data, part_machine_obj):
         #image_data = Image.open(image_file_pat)
+        
+
+        #Now I need to run the image shrink
+        image_data = self.shrink_image(image_data)
+        
         image_x = image_data.size[0]
         image_y = image_data.size[1]
+        
         pixels = image_data.load()
 
-        #
 
         pixels = pixel_utilities.simplify_image_pixels(pixels, image_x, image_y)
 
@@ -47,6 +53,18 @@ class PixelConsumer(consumer.Consumer):
                                    part_machine_obj)
 
         return part_machine_obj
+
+    def shrink_image(self, image_data):
+        while True:
+            image_x = image_data.size[0]
+            image_y = image_data.size[1]
+            if image_x < 101:
+                #if both are less than 101, return the image data
+                if image_y < 101:
+                    return image_data
+            #If either failed the size test, cut the image in half
+            image_data = image_data.resize((math.ceil(image_x / 2), math.ceil(image_y / 2)), Image.ANTIALIAS)
+            print("Halved size of image")
 
     def consume_pixel(self, x_value, y_value, max_x, max_y, pixels, part_machine_obj):
         #NEED X_MAX HERE
