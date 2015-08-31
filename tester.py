@@ -1,9 +1,9 @@
-from InterpretationEngines import callie_machine
+from cam_engines.yaml_cam import cam
 #import CallieMachine
-from InterpretationEngines.char_reader import char_consumer
-from InterpretationEngines.char_reader import char_generator
-from InterpretationEngines.images import pixel_consumer
-from InterpretationEngines.images import pixel_generator
+#from content_engines.chars import char_contemplator
+#from content_engines.chars import char_creator
+from content_engines.images import pixel_contemplator
+from content_engines.images import pixel_creator
 #from InterpretationEngines.char_reader import TextGenerator
 import yaml
 from PIL import Image
@@ -34,10 +34,10 @@ mynewCallie.consumeContent(TextConsumer.TextConsumer(open("wolf2.txt").read(), m
 #NEW_CALLIE.consume_content(char_consumer.CharConsumer(open("mobydick.txt").read(), NEW_CALLIE.data_storage_class))
 #print("OUTPUT:" + NEW_CALLIE.generate_output(char_generator.CharGenerator(NEW_CALLIE.data_storage_class, 1000)))
 
-NEW_CALLIE = callie_machine.CallieMachine('pixel_storage.yaml', 'pixel_machine')
-"""
-for x in range(0, 30):
-    for filename in os.listdir(os.getcwd() + "\\TopDataStore"):
-        NEW_CALLIE.consume_content(pixel_consumer.PixelConsumer(Image.open('TopDataStore/' + filename), NEW_CALLIE.data_storage_class))
- """   
-NEW_CALLIE.generate_output(pixel_generator.PixelGenerator(NEW_CALLIE.data_storage_class, 100, 100, tuple([1, 1])))
+NEW_CALLIE = cam.CAM('pixel_storage.yaml', 'pixel_machine')
+
+for x in range(0, 1):
+    for filename in os.listdir(os.getcwd() + "\\consumed_files\\png_images"):
+        NEW_CALLIE.contemplate_content(pixel_contemplator.PixelContemplator(Image.open('consumed_files/png_images/' + filename), NEW_CALLIE.data_storage_class))
+  
+NEW_CALLIE.create_content(pixel_creator.PixelCreator(NEW_CALLIE.data_storage_class, 100, 100, tuple([1, 1])))

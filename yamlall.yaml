@@ -1,6 +1,0 @@
-!!python/object:__main__.Person
-otherPerson: !!python/object:__main__.Kid {name: Child}
---- !!python/object:__main__.Person
-otherPerson: !!python/object:__main__.Kid {name: Child2}
---- !!python/object:__main__.Person
-otherPerson: !!python/object:__main__.Kid {name: Child3}
