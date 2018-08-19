@@ -47,7 +47,7 @@ class GutenbergCollector:
         print("File written:" + 'documents_downloaded/' + str(url_index) + ".txt")
 
     def get_content_at_indexes(self):
-        for x in range(1, 100):
+        for x in range(1, 201):
             self.get_content_from_url(x)
         #content 37 doesn't follow same format
 
