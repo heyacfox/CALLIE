@@ -8,13 +8,25 @@ class TextStoryCreator():
 
     def create_text_story(self, mappings, length):
         text_string = ""
-        mappingsKeys = list(mappings.keys())
+        mappingsKeysWithBlanks = list(mappings.keys())
+        mappingsKeys = []
+        for key in mappingsKeysWithBlanks:
+            if len(mappings[key]) > 0:
+                mappingsKeys.append(key)
         rc = random.choice(mappingsKeys)
         text_string = text_string + rc
         #mappingsLength = mappingsKeys.count()
         for x in range(length):
             #pick a random key, then a random value from that key
-            mappingsvalues = mappings[rc]
+            if rc in mappingsKeys:
+                mappingsvalues = mappings[rc]
+            else:
+                #if you can't use the result, you need to pick a new random key you DO know.
+                # #brainfreeze
+                text_string = text_string + "|||BRAINFREEZE|||"
+                rc = random.choice(mappingsKeys)
+                mappingsvalues = mappings[rc]
+                #text_string = text_string + " "
             mappingvaluechosen = random.choice(mappingsvalues)
             if self.should_I_add_a_space(rc, mappingvaluechosen):
                 text_string = text_string + " " + mappingvaluechosen

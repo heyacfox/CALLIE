@@ -1,3 +1,5 @@
+import unicodedata
+
 class TextStoryCleaner:
 
     def __init__(self):
@@ -17,8 +19,10 @@ class TextStoryCleaner:
         symbol_tracking = ""
         tracking_word = True
         outputarray = []
-        text_file = open(textLocation, "r")
+        text_file = open(textLocation, "r", encoding="utf8")
+        #text_file
         for line in text_file:
+            #print(line)
             for ch in line:
                 if ch in self.valid_word_parts:
                     if symbol_tracking != "":
