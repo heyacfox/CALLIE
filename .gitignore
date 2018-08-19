@@ -1,0 +1,5 @@
+# exclude everything
+documents_downloaded/*
+
+# exception to the rule
+!documents_downloaded/.gitkeep 
