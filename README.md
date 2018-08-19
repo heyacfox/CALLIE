@@ -5,7 +5,7 @@ Culturally Adept Lossy Limited Interpretation Engine
 ##Commonly Used Terms
 Note: A lot of them are currently labeled incorrect in the system right now
 
-CAM - Culturally Adept Machine
+CAM - Culturally Adept Machine (Machines)
 
 Consumer - A program that pulls data from a source to be contemplated
 
