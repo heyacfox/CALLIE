@@ -31,6 +31,9 @@ class TextStoryConsumer:
 
         logging.debug("Starting a Consume with" + str(len(text_list)) + " parts")
         logging.debug("Consolidator keys:" + str(consolidator.keys()))
+        if(len(text_list) < 2):
+            #this text is unreadable, since it only has one part
+            return
         prev_part = text_list[0]
         curr_part = ""
         printevery = 5000

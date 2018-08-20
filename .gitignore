@@ -6,4 +6,11 @@ documents_downloaded/*
 
 *.pyc
 
-*\__pycache__\*
+*.cpython-34.pyc
+
+*/__pycache__/*
+
+experiment_outputs/*
+
+consume.log
+*.log

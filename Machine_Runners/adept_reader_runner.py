@@ -76,7 +76,7 @@ class AdeptReaderRunner:
             cleaned_text = self.cleaner.clean_text_story(filepath)
             for x in range(runs):
                 adept_reader_config.add_to_memory_lossy_consolidation(cleaned_text)
-            writeoutputfilepath = path.abspath(path.join(basepath, "..", 'experiment_outputs/' + experiment_name + '/' + str(incre_number) + "-" + file_name))
+            writeoutputfilepath = path.abspath(path.join(basepath, "..", 'experiment_outputs/' + str(experiment_name) + '/' + str(incre_number) + "-" + file_name))
             opened_file = open(writeoutputfilepath, 'w')
             opened_file.write(self.creator.create_text_story(adept_reader_config.memory, 500))
             opened_file.close()
