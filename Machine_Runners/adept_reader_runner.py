@@ -30,6 +30,7 @@ class AdeptReaderRunner:
         self.select_texts()
         indexvalue = 1
         runsperfile = 2
+        self.setup_directory()
         for ar in self.adept_readers:
             t = threading.Thread(target=self.run_one_experiment, args=(ar, indexvalue, runsperfile, "LossinessIs" + str(ar.lossiness)))
             indexvalue = indexvalue + 1
