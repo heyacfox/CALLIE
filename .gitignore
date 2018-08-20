@@ -3,3 +3,7 @@ documents_downloaded/*
 
 # exception to the rule
 !documents_downloaded/.gitkeep 
+
+*.pyc
+
+*\__pycache__\*
