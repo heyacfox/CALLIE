@@ -6,6 +6,7 @@ import random
 from Collectors import gutenberg_collector
 from Cleaners import clean_text_story
 from Creators import create_text_story
+import time
 
 class AdeptReaderRunner:
 
@@ -30,7 +31,7 @@ class AdeptReaderRunner:
         indexvalue = 1
         runsperfile = 2
         for ar in self.adept_readers:
-            t = threading.Thread(target=self.run_one_experiment, args=(ar, indexvalue, runsperfile))
+            t = threading.Thread(target=self.run_one_experiment, args=(ar, indexvalue, runsperfile, "LossinessIs" + str(ar.lossiness)))
             indexvalue = indexvalue + 1
             threads.append(t)
             t.start()
@@ -52,25 +53,34 @@ class AdeptReaderRunner:
             os.mkdir(dirpath)
 
 
-    def setup_experiment_directory(self, indexvalue):
+    def setup_experiment_directory(self, experiment_name):
         basepath = path.dirname(__file__)
-        dirpath = path.abspath(path.join(basepath, "..", 'experiment_outputs/' + str(indexvalue) + '/'))
+        dirpath = path.abspath(path.join(basepath, "..", 'experiment_outputs/' + str(experiment_name) + '/'))
         if not path.exists(dirpath):
             os.mkdir(dirpath)
+        else:
+            for the_file in os.listdir(dirpath):
+                try:
+                    file_path = os.path.join(dirpath, the_file)
+                    os.unlink(file_path)
+                except Exception as e:
+                    print(e)
 
 
-    def run_one_experiment(self, adept_reader_config, indexvalue, runs):
-        self.setup_experiment_directory(indexvalue)
+    def run_one_experiment(self, adept_reader_config, indexvalue, runs, experiment_name):
+        self.setup_experiment_directory(experiment_name)
+        incre_number = 1
         for file_name in self.texts:
             basepath = path.dirname(__file__)
             filepath = path.abspath(path.join(basepath, "..", 'documents_downloaded/' + file_name))
             cleaned_text = self.cleaner.clean_text_story(filepath)
             for x in range(runs):
                 adept_reader_config.add_to_memory_lossy_consolidation(cleaned_text)
-            writeoutputfilepath = path.abspath(path.join(basepath, "..", 'experiment_outputs/' + str(indexvalue) + '/' + file_name))
+            writeoutputfilepath = path.abspath(path.join(basepath, "..", 'experiment_outputs/' + experiment_name + '/' + str(incre_number) + "-" + file_name))
             opened_file = open(writeoutputfilepath, 'w')
             opened_file.write(self.creator.create_text_story(adept_reader_config.memory, 500))
             opened_file.close()
+            incre_number = incre_number + 1
 
 
 
