@@ -16,3 +16,4 @@ consume.log
 *.log
 
 workspace.xml
+*.gutenbergmetaclean

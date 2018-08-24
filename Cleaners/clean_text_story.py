@@ -62,4 +62,56 @@ class TextStoryCleaner:
                 outputdict[part] = 1
         return outputdict
 
+    def meta_cleanup(self, text):
+        gutenberg_header = "START OF THIS PROJECT GUTENBERG EBOOK"
+        gutenberg_footer = "END OF THIS PROJECT GUTENBERG EBOOK"
+        if gutenberg_header in text:
+            text = self.gutenberg_meta_cleanup_header(text)
+        if gutenberg_footer in text:
+            text = self.gutenberg_meta_cleanup_footer(text)
+        return text
 
+    def gutenberg_meta_cleanup_header(self, text):
+        gutenberg_header = "START OF THIS PROJECT GUTENBERG EBOOK"
+        matchnum = "nothing"
+        for num, line in enumerate(text.split('\n'), 1):
+            #print(line)
+            if gutenberg_header in line:
+                matchnum = num
+        #print(str(matchnum))
+        #matched_lines = [line for line in text.split('\n') if gutenberg_header in line]
+        #header_row = matched_lines[0]
+        text_split = text.split('\n')
+        text_after_header = text_split[matchnum:]
+        #print ("textafter:[" + text_after_header[0] + "]")
+        text_checking = text_after_header[0]
+        while text_checking == '':
+            #print("TextChecking:[" + text_checking + "]")
+            text_after_header = text_after_header[1:]
+            text_checking = text_after_header[0]
+        rejoined = '\n'.join(text_after_header)
+        #print(rejoined)
+        return rejoined
+
+    def gutenberg_meta_cleanup_footer(self, text):
+        gutenberg_footer = "END OF THIS PROJECT GUTENBERG EBOOK"
+        matchnum = "nothing"
+        for num, line in enumerate(text.split('\n'), 1):
+            if gutenberg_footer in line:
+                matchnum = num
+        #matched_lines = [line for line in text.split('\n') if gutenberg_footer in line]
+        #footer_row = matched_lines[0]
+        #print(str(matchnum))
+        text_split = text.split('\n')
+        text_before_footer = text_split[:(matchnum - 1)]
+        #print("textbefore:[" + text_before_footer[-1] + "]")
+        textchecking = ''
+        while textchecking == '':
+            #print("TextChecking:[" + textchecking + "]")
+            text_before_footer = text_before_footer[:-2]
+            textchecking = text_before_footer[-1:]
+        text_before_footer = text_before_footer[:-1]
+        rejoined = '\n'.join(text_before_footer)
+        #print(rejoined)
+        #print("Line after")
+        return rejoined

@@ -3,9 +3,11 @@ from Cleaners import clean_text_story
 from Consumers import consume_text_story
 from Creators import create_text_story
 from Machines import adept_reader
+from Collectors import gutenberg_collector
 from collections import OrderedDict
 from operator import itemgetter
 import os
+import re
 
 
 class MyTestCase(unittest.TestCase):
@@ -66,7 +68,7 @@ class MyTestCase(unittest.TestCase):
 
 
 
-    def test_lossy(self):
+    def non_test_lossy(self):
         text_story_cleaner = clean_text_story.TextStoryCleaner()
         text_story_consumer = consume_text_story.TextStoryConsumer()
         text_story_creator = create_text_story.TextStoryCreator()
@@ -94,6 +96,79 @@ class MyTestCase(unittest.TestCase):
             print(text_story_creator.create_text_story(ar.memory, 1000))
 
         self.assertEqual(True, True)
+
+    def non_test_gutenberg_meta_cleanups(self):
+        text_story_cleaner = clean_text_story.TextStoryCleaner()
+        #basepath = 'documents_downloaded/'
+        #text12path = basepath + '12.txt'
+        #text12file = open(text12path, "r", encoding="utf8")
+        #text12contents = text12file.read()
+        #text12cleanedactual = text_story_cleaner.meta_cleanup(text12contents)
+        #text12exptpath = 'manual_test_checks/12-gutenberg_meta.txt'
+        #text12exptfile = open(text12exptpath, "r", encoding="utf8")
+        #text12exptcontents = text12exptfile.read()
+        #text12file.close()
+        #text12exptfile.close()
+        #self.assertEqual(text12cleanedactual, text12exptcontents)
+        gutenberg_meta_files = []
+        #if we find a file in the manual tests folder with '-gutenberg_meta' as a name
+        for manual_file_name in os.listdir(os.getcwd() + "\\manual_test_checks"):
+            if '-gutenberg_meta' in manual_file_name:
+                gutenberg_meta_files.append(manual_file_name)
+        for gutenberg_file in gutenberg_meta_files:
+            print("Gutenberg masnual file is:" + gutenberg_file)
+            download_name_list = gutenberg_file.split('-gutenberg_meta')
+            download_name = ''.join(download_name_list)
+            download_file_path = 'documents_downloaded/' + download_name
+            opened_file = open(download_file_path, "r", encoding="utf8")
+            file_contents = opened_file.read()
+            opened_file.close()
+            file_meta_cleaned = text_story_cleaner.meta_cleanup(file_contents)
+            manual_check_path = 'manual_test_checks/' + gutenberg_file
+            manual_file_opened = open(manual_check_path, "r", encoding="utf8")
+            manual_file_contents = manual_file_opened.read()
+            manual_file_opened.close()
+            self.assertEqual(manual_file_contents, file_meta_cleaned)
+
+    def test_how_many_gutenberg_cleanups(self):
+        print("GUTENBERG CLEANUP COUNT CHECK")
+        non_matching = 0
+        totalvalues = 0
+        my_gutenberg_collector = gutenberg_collector.GutenbergCollector()
+        my_gutenberg_collector.get_content_at_specific_indexes(1, 200)
+        non_matches = []
+
+        text_story_cleaner = clean_text_story.TextStoryCleaner()
+        for gutenberg_file in os.listdir(os.getcwd() + "\\documents_downloaded"):
+            totalvalues += 1
+            download_file_path = 'documents_downloaded/' + gutenberg_file
+            opened_file = open(download_file_path, "r", encoding="utf8")
+            print("gutenberg file:" + gutenberg_file)
+            file_contents = opened_file.read()
+            opened_file.close()
+            file_meta_cleaned = text_story_cleaner.meta_cleanup(file_contents)
+            file_meta_cleaned = ''.join(file_meta_cleaned)
+            #print("FILE META")
+            #print(file_meta_cleaned)
+            #print("OPENEDCONTENTS")
+            #print(file_contents)
+
+            if file_meta_cleaned == file_contents:
+                #this means that the cleanup DID NOT HAPPEN
+                non_matching += 1
+                non_matches.append(gutenberg_file)
+                output_filepath = 'test_outputs/' + gutenberg_file + '.gutenbergmetaclean'
+                opened_output = open(output_filepath, 'w')
+                opened_output.write(file_meta_cleaned)
+                opened_output.close()
+
+
+
+
+        print("Found [" + str(non_matching) + "] documents that could not be cleaned out of [" + str(totalvalues) + "] total documents checked")
+        print("These did not follow matching format:" + str(sorted(non_matches)))
+
+
 
 
 
