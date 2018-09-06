@@ -29,8 +29,8 @@ class TextStoryConsumer:
     def consume_with_consolidation(self, text_list, consolidator):
         print ("List of text to analyze" + str(len(text_list)))
 
-        logging.debug("Starting a Consume with" + str(len(text_list)) + " parts")
-        logging.debug("Consolidator keys:" + str(consolidator.keys()))
+        #logging.debug("Starting a Consume with" + str(len(text_list)) + " parts")
+        #logging.debug("Consolidator keys:" + str(consolidator.keys()))
         if(len(text_list) < 2):
             #this text is unreadable, since it only has one part
             return
@@ -51,7 +51,7 @@ class TextStoryConsumer:
                 combinecheck = prev_part + curr_part
             if self.phrase_has_keysection(consolidator, combinecheck):
                 prev_part = combinecheck
-                logging.debug("Using Combine as Prev:" + combinecheck)
+                #logging.debug("Using Combine as Prev:" + combinecheck)
             else:
                 if prev_part not in output_dict:
                     output_dict[prev_part] = [curr_part]
@@ -65,11 +65,11 @@ class TextStoryConsumer:
 
     def phrase_has_keysection(self, consolidator, key_to_check):
         if key_to_check in consolidator.keys():
-            logging.debug("Phrase found:" + key_to_check)
+            #logging.debug("Phrase found:" + key_to_check)
             #print ("Phrase found:" + key_to_check)
             return True
         else:
-            logging.debug("Phrase not found:" + key_to_check)
+            #logging.debug("Phrase not found:" + key_to_check)
             return False
 
     def should_I_add_a_space(self, prev_word, cur_word):

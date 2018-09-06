@@ -5,7 +5,7 @@ from Machine_Runners import adept_reader_runner
 class MyTestCase(unittest.TestCase):
     def test_something(self):
         arr = adept_reader_runner.AdeptReaderRunner()
-        arr.begin_experiment(20, 2)
+        arr.begin_experiment(2, 4)
         self.assertEqual(True, True)
 
 

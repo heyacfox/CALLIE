@@ -24,12 +24,12 @@ class AdeptReaderRunner:
         self.creator = create_text_story.TextStoryCreator()
 
 
-    def begin_experiment(self):
+    def begin_experiment(self, number_of_texts, runs_per_file):
         threads = []
         #need to pick a randomized collection of texts
-        self.select_texts()
+        self.select_texts(number_of_texts)
         indexvalue = 1
-        runsperfile = 2
+        runsperfile = runs_per_file
         self.setup_directory()
         for ar in self.adept_readers:
             t = threading.Thread(target=self.run_one_experiment, args=(ar, indexvalue, runsperfile, "LossinessIs" + str(ar.lossiness)))
@@ -37,14 +37,14 @@ class AdeptReaderRunner:
             threads.append(t)
             t.start()
 
-    def select_texts(self):
+    def select_texts(self, number_of_texts):
         gc = gutenberg_collector.GutenbergCollector()
         gc.get_content_at_indexes()
         allfiles = []
         for filename in os.listdir(os.getcwd() + "\\documents_downloaded"):
             if '.txt' in filename:
                 allfiles.append(filename)
-        self.texts = random.sample(set(allfiles), 20)
+        self.texts = random.sample(set(allfiles), number_of_texts)
 
 
     def setup_directory(self):
